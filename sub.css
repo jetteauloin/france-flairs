@@ -969,6 +969,10 @@ position: absolute;}
 display: none !important;
 }
 
+#container li {
+    background: url(%%spritesheet%%) no-repeat top left;
+}
+
 .flair {
 border: none !important;
 top:0px;
@@ -991,303 +995,6 @@ text-indent: -1000em; overflow: hidden;
    transform:rotate(360deg);
 
 }
-
-#container li {
-    background: url(%%spritesheet%%) no-repeat top left;
-}
-.flair-ubomw { background-position: -216px -1966px; width: 29px; height: 40px; }
-.flair-ubomw:hover{ background-position: -216px -2007px; width: 39px; height: 31px; }
-
-.flair-Alsace{ background-position: 0 0; width: 20px; height: 20px; }
-.flair-Aquitaine{ background-position: 0 -70px; width: 20px; height: 20px; }
-.flair-Auvergne{ background-position: 0 -140px; width: 20px; height: 20px; }
-.flair-Bourgogne{ background-position: 0 -210px; width: 20px; height: 20px; }
-.flair-Bretagne{ background-position: 0 -280px; width: 20px; height: 20px; }
-.flair-Centre{ background-position: 0 -350px; width: 20px; height: 20px; }
-.flair-Champagne{ background-position: 0 -420px; width: 20px; height: 20px; }
-.flair-Corse{ background-position: 0 -490px; width: 20px; height: 20px; }
-.flair-Franche{ background-position: 0 -560px; width: 20px; height: 20px; }
-.flair-IDF{ background-position: 0 -630px; width: 20px; height: 20px; }
-.flair-Languedoc{ background-position: 0 -700px; width: 20px; height: 20px; }
-.flair-Limousin{ background-position: 0 -770px; width: 20px; height: 20px; }
-.flair-Lorraine{ background-position: 0 -840px; width: 20px; height: 20px; }
-.flair-MPyrenees{ background-position: 0 -910px; width: 20px; height: 20px; }
-.flair-NPDC{ background-position: 0 -980px; width: 20px; height: 20px; }
-.flair-Normandie{ background-position: 0 -1050px; width: 20px; height: 20px; }
-.flair-PACA{ background-position: 0 -1120px; width: 20px; height: 20px; }
-.flair-PDL{ background-position: 0 -1190px; width: 22px; height: 20px; }
-.flair-Picardie{ background-position: 0 -1260px; width: 20px; height: 20px; }
-.flair-Poitou{ background-position: 0 -1330px; width: 20px; height: 20px; }
-.flair-Rhone{ background-position: 0 -1400px; width: 20px; height: 20px; }
-.flair-S971{ background-position: 0 -1470px; width: 20px; height: 13px; }
-.flair-S972{ background-position: 0 -1533px; width: 20px; height: 20px; }
-.flair-S973{ background-position: 0 -1603px; width: 20px; height: 20px; }
-.flair-S974{ background-position: 0 -1673px; width: 20px; height: 20px; }
-.flair-S976{ background-position: 0 -1743px; width: 20px; height: 20px; }
-.flair-T975{ background-position: 0 -1813px; width: 20px; height: 13px; }
-.flair-T977{ background-position: 0 -1876px; width: 20px; height: 20px; }
-.flair-T978{ background-position: 0 -1946px; width: 20px; height: 20px; }
-.flair-T986{ background-position: -70px 0; width: 20px; height: 20px; }
-.flair-T987{ background-position: -70px -70px; width: 20px; height: 20px; }
-.flair-T988{ background-position: -70px -140px; width: 11px; height: 20px; }
-.flair-TAAF{ background-position: -70px -210px; width: 20px; height: 13px; }
-.flair-YAFrance{ background-position: -70px -273px; width: 22px; height: 14px; }
-.flair-YEuskadi{ background-position: -70px -337px; width: 20px; height: 11px; }
-.flair-YSavoie{ background-position: -70px -398px; width: 20px; height: 20px; }
-.flair-ZAFrancophonie{ background-position: -70px -468px; width: 21px; height: 20px; }
-.flair-ZBBelgique{ background-position: -70px -538px; width: 20px; height: 18px; }
-.flair-ZBSVUE{ background-position: -70px -606px; width: 20px; height: 13px; }
-.flair-ZBSuisse{ background-position: -70px -669px; width: 20px; height: 20px; }
-.flair-ZBTLuxembourg{ background-position: -70px -739px; width: 20px; height: 12px; }
-.flair-ZBTQuebec{ background-position: -70px -801px; width: 20px; height: 14px; }
-.flair-ZBelbru{ background-position: -70px -865px; width: 20px; height: 20px; }
-.flair-ZBelwal{ background-position: -70px -935px; width: 20px; height: 20px; }
-.flair-ZCanada{ background-position: -70px -1005px; width: 22px; height: 10px; }
-.flair-ZUK{ background-position: -70px -1065px; width: 20px; height: 10px; }
-.flair-Zecosse{ background-position: -70px -1660px; width: 20px; height: 15px; }
-.flair-Zengland{ background-position: -69px -1678px; width: 22px; height: 12px; }
-.flair-Zjapon{ background-position: -68px -1876px; width: 27px; height: 17px; }
-.flair-Zisrael{ background-position: -68px -1946px; width: 22px; height: 17px; }
-.flair-Znorvege{ background-position: -68px -1988px; width: 22px; height: 16px; }
-.flair-Zirlande{ background-position: -104px -841px; width: 25px; height: 13px; }
-.flair-Zpaysdegalle{ background-position: -104px -859px; width: 27px; height: 16px; }
-.flair-Zcornouaille{ background-position: -104px -879px; width: 27px; height: 17px; }
-.flair-Zcoree{ background-position: -103px -899px; width: 27px; height: 18px; }
-.flair-Zallemagne{ background-position: -104px -919px; width: 25px; height: 15px; }
-.flair-Zhongrie{ background-position: -104px -937px; width: 25px; height: 12px; }
-.flair-Zitalie{ background-position: -104px -951px; width: 22px; height: 15px; }
-.flair-Zespagne{ background-position: -104px -968px; width: 25px; height: 17px; }
-.flair-Zpaysbas{ background-position: -104px -987px; width: 25px; height: 17px; }
-.flair-Zsuede{ background-position: -104px -1006px; width: 25px; height: 16px; }
-.flair-Zpologne{ background-position: -104px -1024px; width: 25px; height: 16px; }
-.flair-Zlatverie{ background-position: -105px -1044px; width: 28px; height: 14px; }
-.flair-Znepal{ background-position: -105px -1059px; width: 25px; height: 30px; }
-.flair-Zsenegal{ background-position: -105px -1091px; width: 25px; height: 17px; }
-.flair-Zbelleile{ background-position: -105px -1111px; width: 25px; height: 17px; }
-.flair-Zparis{ background-position: -105px -1131px; width: 20px; height: 20px; }
-.flair-Zfinlande{ background-position: -105px -1154px; width: 25px; height: 15px; }
-.flair-ZUS{ background-position: -70px -1125px; width: 20px; height: 10px; }
-.flair-ZZChaton{ background-position: -70px -1185px; width: 21px; height: 18px; }
-.flair-ZZsanglier{ background-position: -70px -1740px; width: 22px; height: 25px; }
-.flair-ZZZBot{ background-position: -70px -1253px; width: 18px; height: 20px; }
-.flair-ZZZZZpace{ background-position: -70px -1323px; width: 23px; height: 17px; }
-.flair-ZZZZZtroll{ background-position: -70px -1390px; width: 25px; height: 20px; }
-.flair-ZZZZalgU00e9rie{ background-position: -70px -1460px; width: 30px; height: 20px; }
-.flair-ZZZZalgerie{ background-position: -70px -1530px; width: 20px; height: 13px; }
-.flair-ZZZZtunisie{ background-position: -70px -1593px; width: 20px; height: 15px; }
-.flair-ZZZZphilippines{ background-position: -70px -1814px; width: 25px; height: 13px; }
-.flair-ZZZZZZpoulpe{ background-position: -100px -0px; width: 25px; height: 25px; }
-.flair-ZZZZZZpoisson{ background-position: -100px -26px; width: 25px; height: 25px; }
-.flair-ZZZZZZoiseau{ background-position: -100px -51px; width: 25px; height: 25px; }
-.flair-ZZZZZZoiseaucape{ background-position: -101px -527px; width: 33px; height: 28px; }
-.flair-ZZZZZZpingouin{ background-position: -100px -77px; width: 23px; height: 25px; }
-.flair-ZZZZZZescargot{ background-position: -100px -102px; width: 26px; height: 22px; }
-.flair-ZZZZZZsouris{ background-position: -100px -125px; width: 22px; height: 24px; }
-.flair-ZZZZZZcrabe{ background-position: -100px -150px; width: 29px; height: 24px; }
-.flair-ZZZZZZpoisson2{ background-position: -100px -174px; width: 30px; height: 26px; }
-.flair-ZZZZZZmorse{ background-position: -100px -200px; width: 29px; height: 23px; }
-.flair-ZZZZZZchauvesouris{ background-position: -100px -224px; width: 29px; height: 22px; }
-.flair-ZZZZZZcriquet{ background-position: -100px -246px; width: 29px; height: 19px; }
-.flair-ZZZZZZhirondelle{ background-position: -100px -265px; width: 29px; height: 25px; }
-.flair-ZZZZZZcrevette{ background-position: -100px -292px; width: 28px; height: 27px; }
-.flair-ZZZZZZaraignée{ background-position: -100px -320px; width: 31px; height: 25px; }
-.flair-ZZZZZZhippocampe{ background-position: -100px -346px; width: 19px; height: 27px; }
-.flair-ZZZZZZcygne{ background-position: -100px -373px; width: 30px; height: 24px; }
-.flair-ZZZZZZcoq{ background-position: -100px -398px; width: 29px; height: 24px; }
-.flair-ZZZZZZoiseau2{ background-position: -100px -422px; width: 31px; height: 26px; }
-.flair-ZZZZZZpelican{ background-position: -100px -447px; width: 32px; height: 26px; }
-.flair-ZZZZZZratonlaveur{ background-position: -100px -476px; width: 30px; height: 24px; }
-.flair-ZZZZZZguepard{ background-position: -100px -501px; width: 31px; height: 24px; }
-.flair-ZZZZZZchiot{ background-position: -103px -556px; width: 28px; height: 26px; }
-.flair-ZZZZZZchatf{ background-position: -103px -585px; width: 36px; height: 33px; }
-.flair-ZZZZZZchatl{ background-position: -106px -685px; width: 33px; height: 33px; }
-.flair-ZZZZZZdinosaure1{ background-position: -105px -618px; width: 34px; height: 35px; }
-.flair-ZZZZZZdinosaure2{ background-position: -105px -654px; width: 34px; height: 29px; }
-.flair-ZZZZZZcroissant{ background-position: -106px -721px; width: 32px; height: 18px; }
-.flair-ZZZZZZbaguette{ background-position: -107px -742px; width: 38px; height: 17px; }
-.flair-ZZZZZZvin{ background-position: -109px -760px; width: 12px; height: 40px; }
-.flair-ZZZZZZcamembert{ background-position: -108px -803px; width: 32px; height: 30px; }
-.flair-ZZZZZZhacker{ background-position: -129px -2px; width: 22px; height: 20px; }
-.flair-afriquedusud{ background-position: -105px -1171px; width: 25px; height: 17px; }
-.flair-maroc{ background-position: -105px -1190px; width: 25px; height: 17px; }
-.flair-groenland{ background-position: -105px -1209px; width: 25px; height: 17px; }
-.flair-australie{ background-position: -104px -1228px; width: 31px; height: 16px; }
-.flair-newzealand{ background-position: -104px -1245px; width: 31px; height: 17px; }
-.flair-pirate{ background-position: -105px -1262px; width: 25px; height: 16px; }
-.flair-anarchisme{ background-position: -105px -1281px; width: 25px; height: 16px; }
-.flair-frise{ background-position: -105px -1299px; width: 25px; height: 17px; }
-.flair-gwennhadu{ background-position: -105px -1318px; width: 25px; height: 17px; }
-.flair-bearn{ background-position: -105px -1337px; width: 25px; height: 15px; }
-.flair-francosuisse{ background-position: -105px -1354px; width: 20px; height: 20px; }
-.flair-legion{ background-position: -105px -1376px; width: 25px; height: 19px; }
-.flair-cocarde{ background-position: -105px -1398px; width: 21px; height: 21px; }
-.flair-croixlorraine{ background-position: -105px -1419px; width: 20px; height: 29px; }
-.flair-imperial{ background-position: -103px -1450px; width: 32px; height: 33px; }
-.flair-republique{ background-position: -106px -1486px; width: 40px; height: 14px; }
-.flair-ratp{ background-position: -106px -1505px; width: 27px; height: 27px; }
-.flair-minitel{ background-position: -101px -1535px; width: 40px; height: 36px; }
-.flair-charrenault{ background-position: -103px -1570px; width: 42px; height: 27px; }
-.flair-superdupont{ background-position: -103px -1600px; width: 41px; height: 33px; }
-.flair-potion{ background-position: -106px -1638px; width: 29px; height: 30px; }
-.flair-beret{ background-position: -110px -1669px; width: 31px; height: 15px; }
-.flair-guignol{ background-position: -112px -1687px; width: 31px; height: 30px; }
-.flair-viennoiserie{ background-position: -117px -1720px; width: 20px; height: 17px; }
-.flair-frites{ background-position: -113px -1741px; width: 25px; height: 36px; }
-.flair-poutine{ background-position: -110px -1782px; width: 37px; height: 22px; }
-.flair-canele{ background-position: -114px -1809px; width: 25px; height: 31px; }
-.flair-guiness{ background-position: -118px -1845px; width: 17px; height: 31px; }
-.flair-chimay{ background-position: -118px -1879px; width: 17px; height: 39px; }
-.flair-poing{ background-position: -116px -1920px; width: 25px; height: 30px; }
-.flair-grammar{ background-position: -118px -1954px; width: 22px; height: 21px; }
-.flair-coeur{ background-position: -117px -1978px; width: 27px; height: 22px; }
-.flair-photo{ background-position: -120px -2002px; width: 20px; height: 14px; }
-.flair-guitare{ background-position: -98px -1999px; width: 12px; height: 32px; }
-.flair-peinture{ background-position: -70px -2009px; width: 18px; height: 20px; }
-.flair-pipe{ background-position: -130px -32px; width: 34px; height: 18px; }
-.flair-renard{ background-position: -129px -51px; width: 32px; height: 31px; }
-.flair-loutre{ background-position: -131px -85px; width: 33px; height: 29px; }
-.flair-bison{ background-position: -130px -115px; width: 31px; height: 36px; }
-.flair-marmotte{ background-position: -139px -156px; width: 27px; height: 40px; }
-.flair-otarie{ background-position: -138px -200px; width: 43px; height: 19px; }
-.flair-grenouille{ background-position: -142px -224px; width: 35px; height: 38px; }
-.flair-ours{ background-position: -140px -267px; width: 30px; height: 31px; }
-.flair-shrek{ background-position: -137px -302px; width: 37px; height: 41px; }
-.flair-fab{ background-position: -166px -1935px; width: 33px; height: 37px; }
-.flair-nsfw{ background-position: -164px -2009px; width: 35px; height: 27px; }
-.flair-nsfw:hover{
-background-position: -164px -1981px; width: 35px; height: 27px;
-}
-.flair-inde{ background-position: -166px -4px; width: 25px; height: 17px; }
-.flair-danemark{ background-position: -166px -28px; width: 25px; height: 19px; }
-.flair-liban{ background-position: -166px -53px; width: 25px; height: 16px; }
-.flair-oss{ background-position: -137px -346px; width: 28px; height: 33px; }
-.flair-lepers{ background-position: -136px -380px; width: 28px; height: 34px; }
-.flair-kepi{ background-position: -136px -416px; width: 35px; height: 28px; }
-.flair-guillotine{ background-position: -136px -448px; width: 24px; height: 34px; }
-.flair-grd{ background-position: -136px -484px; width: 36px; height: 21px; }
-.flair-comte{ background-position: -136px -507px; width: 34px; height: 21px; }
-.flair-cognac{ background-position: -136px -531px; width: 25px; height: 34px; }
-.flair-saucisson{ background-position: -145px -568px; width: 29px; height: 31px; }
-.flair-rafale{ background-position: -140px -601px; width: 45px; height: 31px; }
-.flair-philippe{ background-position: -144px -634px; width: 27px; height: 36px; }
-.flair-metal{ background-position: -150px -676px; width: 22px; height: 35px; }
-.flair-ananas{ background-position: -153px -714px; width: 18px; height: 35px; }
-.flair-sansculotte{ background-position: -148px -752px; width: 28px; height: 40px; }
-.flair-moustache{ background-position: -144px -796px; width: 36px; height: 14px; }
-.flair-ariane{ background-position: -156px -813px; width: 13px; height: 40px; }
-.flair-didi{ background-position: -144px -857px; width: 40px; height: 35px; }
-.flair-accordeon{ background-position: -144px -895px; width: 37px; height: 24px; }
-.flair-brassens{ background-position: -145px -924px; width: 35px; height: 35px; }
-.flair-arc{ background-position: -145px -963px; width: 33px; height: 35px; }
-.flair-canard{ background-position: -144px -1002px; width: 32px; height: 29px; }
-.flair-marteaufaucille{ background-position: -144px -1035px; width: 31px; height: 30px; }
-.flair-cthulu{ background-position: -144px -1068px; width: 35px; height: 34px; }
-.flair-saxo{ background-position: -144px -1104px; width: 34px; height: 36px; }
-.flair-fleur{ background-position: -144px -1139px; width: 34px; height: 35px; }
-.flair-lys{ background-position: -144px -1176px; width: 28px; height: 34px; }
-.flair-singe{ background-position: -144px -1213px; width: 29px; height: 34px; }
-.flair-ornithorynque{ background-position: -144px -1251px; width: 39px; height: 18px; }
-.flair-quake{ background-position: -144px -1274px; width: 36px; height: 35px; }
-.flair-nyancat{ background-position: -144px -1314px; width: 36px; height: 17px; }
-.flair-italie{ background-position: -144px -1336px; width: 27px; height: 17px; }
-.flair-pologne{ background-position: -144px -1357px; width: 26px; height: 16px; }
-.flair-licorne{ background-position: -144px -1376px; width: 32px; height: 32px; }
-.flair-hk{ background-position: -144px -1412px; width: 26px; height: 17px; }
-.flair-herisson{ background-position: -144px -1433px; width: 30px; height: 26px; }
-.flair-croche{ background-position: -148px -1461px; width: 24px; height: 26px; }
-.flair-hacker2{ background-position: -151px -1492px; width: 22px; height: 20px; }
-.flair-guernesey{ background-position: -144px -1539px; width: 28px; height: 18px; }
-.flair-ut{ background-position: -144px -1562px; width: 30px; height: 30px; }
-.flair-supermeatboy{ background-position: -144px -1594px; width: 32px; height: 23px; }
-.flair-karlmarx{ background-position: -144px -1620px; width: 33px; height: 34px; }
-.flair-pakistan{ background-position: -144px -1658px; width: 33px; height: 22px; }
-.flair-louisiane{ background-position: -144px -1681px; width: 40px; height: 25px; }
-.flair-portugal{ background-position: -144px -1708px; width: 40px; height: 27px; }
-.flair-fougere{ background-position: -144px -1740px; width: 48px; height: 21px; }
-.flair-marteau{ background-position: -144px -1762px; width: 48px; height: 26px; }
-.flair-taiwan { background-position: -147px -1787px; width: 27px; height: 22px; }
-.flair-jospin{ background-position: -165px -1894px; width: 30px; height: 40px; }
-.flair-chefshadok{ background-position: -30px -0px; width: 31px; height: 35px; }
-.flair-devinplombier{ background-position: -27px -114px; width: 35px; height: 35px; }
-.flair-jamy{ background-position: -27px -228px; width: 27px; height: 35px; }
-.flair-gibi{ background-position: -27px -153px; width: 32px; height: 34px; }
-.flair-profshadoko{ background-position: -26px -189px; width: 35px; height: 35px; }
-.flair-gabuzomeu{ background-position: -27px -264px; width: 35px; height: 35px; }
-.flair-shadokpompe{ background-position: -27px -301px; width: 35px; height: 35px; }
-.flair-airbus{ background-position: -25px -338px; width: 45px; height: 30px; }
-.flair-jaures { background-position: -166px -70px; width: 24px; height: 27px; }
-.flair-lordon { background-position: -166px -99px; width: 25px; height: 20px; }
-.flair-abitbol { background-position: -177px -121px; width: 39px; height: 45px; }
-.flair-louisemichel { background-position: -189px -167px; width: 30px; height: 40px; }
-.flair-blum { background-position: -189px -208px; width: 21px; height: 24px; }
-.flair-cheminade { background-position: -189px -240px; width: 30px; height: 35px; }
-.flair-naquitaine { background-position: -192px -280px; width: 30px; height: 35px; }
-
-.flair-nimportequoi { background-position: -152px -1828px; width: 246px; height: 20px; }
-.flair-anne { background-position: -193px -402px; width: 33px; height: 37px; }
-.flair-liberte { background-position: -192px -443px; width: 48px; height: 37px; }
-.flair-jeannedarc { background-position: -189px -486px; width: 41px; height: 37px; }
-.flair-mariecurie { background-position: -189px -525px; width: 41px; height: 39px; }
-.flair-maite { background-position: -189px -565px; width: 41px; height: 39px; }
-.flair-mariondufaouet { background-position: -189px -604px; width: 24px; height: 33px; }
-.flair-beauvoir { background-position: -189px -643px; width: 33px; height: 38px; }
-.flair-veil { background-position: -189px -682px; width: 33px; height: 38px; }
-.flair-piaf { background-position: -189px -721px; width: 33px; height: 38px; }
-.flair-poutineperuqe { background-position: -192px -761px; width: 33px; height: 38px; }
-.flair-penelope { background-position: -192px -803px; width: 33px; height: 38px; }
-.flair-taubira { background-position: -192px -844px; width: 33px; height: 38px; }
-.flair-alizee { background-position: -192px -882px; width: 27px; height: 36px; }
-.flair-haddock { background-position: -189px -917px; width: 38px; height: 37px; }
-.flair-ceres { background-position: -189px -956px; width: 34px; height: 38px; }
-.flair-melenchon { background-position: -193px -1001px; width: 25px; height: 32px; }
-.flair-edriseur { background-position: -194px -1034px; width: 23px; height: 27px; }
-.flair-tgv { background-position: -192px -1098px; width: 110px; height: 22px; }
-.flair-asterix { background-position: -192px -1121px; width: 30px; height: 33px; }
-.flair-taiwan { background-position: -192px -1156px; width: 34px; height: 22px; }
-.flair-singapour { background-position: -192px -1179px; width: 34px; height: 25px; }
-.flair-nono { background-position: -192px -1209px; width: 31px; height: 31px; }
-.flair-voltaire { background-position: -192px -1243px; width: 31px; height: 31px; }
-.flair-coluche { background-position: -192px -1276px; width: 25px; height: 34px; }
-.flair-rousseau { background-position: -192px -1313px; width: 34px; height: 41px; }
-.flair-desproges { background-position: -192px -1359px; width: 36px; height: 36px; }
-.flair-amiralpoitou { background-position: -192px -1397px; width: 37px; height: 41px; }
-.flair-perceval { background-position: -192px -1441px; width: 24px; height: 31px; }
-.flair-gainsbourg { background-position: -195px -1474px; width: 34px; height: 31px; }
-.flair-ubu { background-position: -195px -1506px; width: 25px; height: 41px; }
-.flair-lci { background-position: -195px -1551px; width: 41px; height: 16px; }
-.flair-zizou { background-position: -195px -1571px; width: 46px; height: 32px; }
-.flair-tzizou { background-position: -195px -1601px; width: 34px; height: 28px; }
-.flair-peppercarrot { background-position: -195px -1635px; width: 31px; height: 31px; }
-.flair-mecronchon  { background-position: -195px -1666px; width: 35px; height: 42px; }
-.flair-inconnus  { background-position: -198px -1710px; width: 47px; height: 30px; }
-.flair-pascalbrutal  { background-position: -202px -1741px; width: 37px; height: 35px; }
-.flair-gaston  { background-position: -199px -1780px; width: 41px; height: 37px; }
-.flair-jeanne  { background-position: -200px -1851px; width: 46px; height: 40px; }
-.flair-planete  { background-position: -203px -1898px; width: 46px; height: 26px; }
-.flair-marsu  { background-position: -199px -0px; width: 215px; height: 35px; }
-.flair-grnx  { background-position: -199px -38px; width: 33px; height: 27px; }
-.flair-rochefort  { background-position: -199px -66px; width: 33px; height: 32px; }
-.flair-beaumarchais  { background-position: -246px -38px; width: 34px; height: 36px; }
-.flair-sisyphe  { background-position: -242px -76px; width: 32px; height: 40px; }
-.flair-ss  { background-position: -279px -40px; width: 50px; height: 34px; }
-.flair-dauphine  { background-position: -338px -40px; width: 25px; height: 25px; }
-.flair-gadget  { background-position: -280px -76px; width: 40px; height: 34px; }
-.flair-amiralpoitou2  { background-position: -323px -76px; width: 28px; height: 34px; }
-.flair-vlc  { background-position: -353px -76px; width: 26px; height: 29px; }
-.flair-coqd  { background-position: -368px -40px; width: 30px; height: 34px; }
-.flair-bonnetane  { background-position: -402px -40px; width: 24px; height: 32px; }
-.flair-gjour  { background-position: -419px -1px; width: 20px; height: 13px; }
-.flair-bebel  { background-position: -425px -76px; width: 28px; height: 33px; }
-.flair-bresil  { background-position: -385px -76px; width: 32px; height: 24px; }
-.flair-respiration  { background-position: -427px -38px; width: 33px; height: 33px; }
-.flair-chouffe  { background-position: -462px -38px; width: 33px; height: 33px; }
-.flair-saliere  { background-position: -462px -80px; width: 32px; height: 31px; }
-.flair-gobelin  { background-position: -243px -117px; width: 32px; height: 26px; }
-.flair-framasoft  { background-position: -280px -113px; width: 33px; height: 33px; }
-.flair-schtroumpf  { background-position: -325px -115px; width: 21px; height: 32px; }
-.flair-nioutaik  { background-position: -358px -118px; width: 70px; height: 19px; }
-.flair-mbappe  { background-position: -463px -115px; width: 29px; height: 31px; }
-.flair-croatie  { background-position: -433px -115px; width: 30px; height: 33px; }
 
 /* piqué ici : https://www.reddit.com/r/csshelp/comments/2fwmsd/looking_to_change_automoderators_name_in_a/ckdt914 */
 a[href$="user/AutoModerator"] {visibility:hidden;font-size:0}
@@ -1897,3 +1604,295 @@ a[href$="user/ecrire_melenchon"] {visibility:hidden;font-size:0}
 a[href$="user/ecrire_melenchon"]:after {content:"écrire_Mélenchon";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-right:0.5em}
 
 .side a[href$="user/ecrire_melenchon"]:after {font-size:12px;}
+
+/* <flairs> */
+.flair-ubomw { background-position: -216px -1966px; width: 29px; height: 40px; }
+.flair-ubomw:hover{ background-position: -216px -2007px; width: 39px; height: 31px; }
+.flair-Alsace{ background-position: 0 0; width: 20px; height: 20px; }
+.flair-Aquitaine{ background-position: 0 -70px; width: 20px; height: 20px; }
+.flair-Auvergne{ background-position: 0 -140px; width: 20px; height: 20px; }
+.flair-Bourgogne{ background-position: 0 -210px; width: 20px; height: 20px; }
+.flair-Bretagne{ background-position: 0 -280px; width: 20px; height: 20px; }
+.flair-Centre{ background-position: 0 -350px; width: 20px; height: 20px; }
+.flair-Champagne{ background-position: 0 -420px; width: 20px; height: 20px; }
+.flair-Corse{ background-position: 0 -490px; width: 20px; height: 20px; }
+.flair-Franche{ background-position: 0 -560px; width: 20px; height: 20px; }
+.flair-IDF{ background-position: 0 -630px; width: 20px; height: 20px; }
+.flair-Languedoc{ background-position: 0 -700px; width: 20px; height: 20px; }
+.flair-Limousin{ background-position: 0 -770px; width: 20px; height: 20px; }
+.flair-Lorraine{ background-position: 0 -840px; width: 20px; height: 20px; }
+.flair-MPyrenees{ background-position: 0 -910px; width: 20px; height: 20px; }
+.flair-NPDC{ background-position: 0 -980px; width: 20px; height: 20px; }
+.flair-Normandie{ background-position: 0 -1050px; width: 20px; height: 20px; }
+.flair-PACA{ background-position: 0 -1120px; width: 20px; height: 20px; }
+.flair-PDL{ background-position: 0 -1190px; width: 22px; height: 20px; }
+.flair-Picardie{ background-position: 0 -1260px; width: 20px; height: 20px; }
+.flair-Poitou{ background-position: 0 -1330px; width: 20px; height: 20px; }
+.flair-Rhone{ background-position: 0 -1400px; width: 20px; height: 20px; }
+.flair-S971{ background-position: 0 -1470px; width: 20px; height: 13px; }
+.flair-S972{ background-position: 0 -1533px; width: 20px; height: 20px; }
+.flair-S973{ background-position: 0 -1603px; width: 20px; height: 20px; }
+.flair-S974{ background-position: 0 -1673px; width: 20px; height: 20px; }
+.flair-S976{ background-position: 0 -1743px; width: 20px; height: 20px; }
+.flair-T975{ background-position: 0 -1813px; width: 20px; height: 13px; }
+.flair-T977{ background-position: 0 -1876px; width: 20px; height: 20px; }
+.flair-T978{ background-position: 0 -1946px; width: 20px; height: 20px; }
+.flair-T986{ background-position: -70px 0; width: 20px; height: 20px; }
+.flair-T987{ background-position: -70px -70px; width: 20px; height: 20px; }
+.flair-T988{ background-position: -70px -140px; width: 11px; height: 20px; }
+.flair-TAAF{ background-position: -70px -210px; width: 20px; height: 13px; }
+.flair-YAFrance{ background-position: -70px -273px; width: 22px; height: 14px; }
+.flair-YEuskadi{ background-position: -70px -337px; width: 20px; height: 11px; }
+.flair-YSavoie{ background-position: -70px -398px; width: 20px; height: 20px; }
+.flair-ZAFrancophonie{ background-position: -70px -468px; width: 21px; height: 20px; }
+.flair-ZBBelgique{ background-position: -70px -538px; width: 20px; height: 18px; }
+.flair-ZBSVUE{ background-position: -70px -606px; width: 20px; height: 13px; }
+.flair-ZBSuisse{ background-position: -70px -669px; width: 20px; height: 20px; }
+.flair-ZBTLuxembourg{ background-position: -70px -739px; width: 20px; height: 12px; }
+.flair-ZBTQuebec{ background-position: -70px -801px; width: 20px; height: 14px; }
+.flair-ZBelbru{ background-position: -70px -865px; width: 20px; height: 20px; }
+.flair-ZBelwal{ background-position: -70px -935px; width: 20px; height: 20px; }
+.flair-ZCanada{ background-position: -70px -1005px; width: 22px; height: 10px; }
+.flair-ZUK{ background-position: -70px -1065px; width: 20px; height: 10px; }
+.flair-Zecosse{ background-position: -70px -1660px; width: 20px; height: 15px; }
+.flair-Zengland{ background-position: -69px -1678px; width: 22px; height: 12px; }
+.flair-Zjapon{ background-position: -68px -1876px; width: 27px; height: 17px; }
+.flair-Zisrael{ background-position: -68px -1946px; width: 22px; height: 17px; }
+.flair-Znorvege{ background-position: -68px -1988px; width: 22px; height: 16px; }
+.flair-Zirlande{ background-position: -104px -841px; width: 25px; height: 13px; }
+.flair-Zpaysdegalle{ background-position: -104px -859px; width: 27px; height: 16px; }
+.flair-Zcornouaille{ background-position: -104px -879px; width: 27px; height: 17px; }
+.flair-Zcoree{ background-position: -103px -899px; width: 27px; height: 18px; }
+.flair-Zallemagne{ background-position: -104px -919px; width: 25px; height: 15px; }
+.flair-Zhongrie{ background-position: -104px -937px; width: 25px; height: 12px; }
+.flair-Zitalie{ background-position: -104px -951px; width: 22px; height: 15px; }
+.flair-Zespagne{ background-position: -104px -968px; width: 25px; height: 17px; }
+.flair-Zpaysbas{ background-position: -104px -987px; width: 25px; height: 17px; }
+.flair-Zsuede{ background-position: -104px -1006px; width: 25px; height: 16px; }
+.flair-Zpologne{ background-position: -104px -1024px; width: 25px; height: 16px; }
+.flair-Zlatverie{ background-position: -105px -1044px; width: 28px; height: 14px; }
+.flair-Znepal{ background-position: -105px -1059px; width: 25px; height: 30px; }
+.flair-Zsenegal{ background-position: -105px -1091px; width: 25px; height: 17px; }
+.flair-Zbelleile{ background-position: -105px -1111px; width: 25px; height: 17px; }
+.flair-Zparis{ background-position: -105px -1131px; width: 20px; height: 20px; }
+.flair-Zfinlande{ background-position: -105px -1154px; width: 25px; height: 15px; }
+.flair-ZUS{ background-position: -70px -1125px; width: 20px; height: 10px; }
+.flair-ZZChaton{ background-position: -70px -1185px; width: 21px; height: 18px; }
+.flair-ZZsanglier{ background-position: -70px -1740px; width: 22px; height: 25px; }
+.flair-ZZZBot{ background-position: -70px -1253px; width: 18px; height: 20px; }
+.flair-ZZZZZpace{ background-position: -70px -1323px; width: 23px; height: 17px; }
+.flair-ZZZZZtroll{ background-position: -70px -1390px; width: 25px; height: 20px; }
+.flair-ZZZZalgU00e9rie{ background-position: -70px -1460px; width: 30px; height: 20px; }
+.flair-ZZZZalgerie{ background-position: -70px -1530px; width: 20px; height: 13px; }
+.flair-ZZZZtunisie{ background-position: -70px -1593px; width: 20px; height: 15px; }
+.flair-ZZZZphilippines{ background-position: -70px -1814px; width: 25px; height: 13px; }
+.flair-ZZZZZZpoulpe{ background-position: -100px -0px; width: 25px; height: 25px; }
+.flair-ZZZZZZpoisson{ background-position: -100px -26px; width: 25px; height: 25px; }
+.flair-ZZZZZZoiseau{ background-position: -100px -51px; width: 25px; height: 25px; }
+.flair-ZZZZZZoiseaucape{ background-position: -101px -527px; width: 33px; height: 28px; }
+.flair-ZZZZZZpingouin{ background-position: -100px -77px; width: 23px; height: 25px; }
+.flair-ZZZZZZescargot{ background-position: -100px -102px; width: 26px; height: 22px; }
+.flair-ZZZZZZsouris{ background-position: -100px -125px; width: 22px; height: 24px; }
+.flair-ZZZZZZcrabe{ background-position: -100px -150px; width: 29px; height: 24px; }
+.flair-ZZZZZZpoisson2{ background-position: -100px -174px; width: 30px; height: 26px; }
+.flair-ZZZZZZmorse{ background-position: -100px -200px; width: 29px; height: 23px; }
+.flair-ZZZZZZchauvesouris{ background-position: -100px -224px; width: 29px; height: 22px; }
+.flair-ZZZZZZcriquet{ background-position: -100px -246px; width: 29px; height: 19px; }
+.flair-ZZZZZZhirondelle{ background-position: -100px -265px; width: 29px; height: 25px; }
+.flair-ZZZZZZcrevette{ background-position: -100px -292px; width: 28px; height: 27px; }
+.flair-ZZZZZZaraignée{ background-position: -100px -320px; width: 31px; height: 25px; }
+.flair-ZZZZZZhippocampe{ background-position: -100px -346px; width: 19px; height: 27px; }
+.flair-ZZZZZZcygne{ background-position: -100px -373px; width: 30px; height: 24px; }
+.flair-ZZZZZZcoq{ background-position: -100px -398px; width: 29px; height: 24px; }
+.flair-ZZZZZZoiseau2{ background-position: -100px -422px; width: 31px; height: 26px; }
+.flair-ZZZZZZpelican{ background-position: -100px -447px; width: 32px; height: 26px; }
+.flair-ZZZZZZratonlaveur{ background-position: -100px -476px; width: 30px; height: 24px; }
+.flair-ZZZZZZguepard{ background-position: -100px -501px; width: 31px; height: 24px; }
+.flair-ZZZZZZchiot{ background-position: -103px -556px; width: 28px; height: 26px; }
+.flair-ZZZZZZchatf{ background-position: -103px -585px; width: 36px; height: 33px; }
+.flair-ZZZZZZchatl{ background-position: -106px -685px; width: 33px; height: 33px; }
+.flair-ZZZZZZdinosaure1{ background-position: -105px -618px; width: 34px; height: 35px; }
+.flair-ZZZZZZdinosaure2{ background-position: -105px -654px; width: 34px; height: 29px; }
+.flair-ZZZZZZcroissant{ background-position: -106px -721px; width: 32px; height: 18px; }
+.flair-ZZZZZZbaguette{ background-position: -107px -742px; width: 38px; height: 17px; }
+.flair-ZZZZZZvin{ background-position: -109px -760px; width: 12px; height: 40px; }
+.flair-ZZZZZZcamembert{ background-position: -108px -803px; width: 32px; height: 30px; }
+.flair-ZZZZZZhacker{ background-position: -129px -2px; width: 22px; height: 20px; }
+.flair-afriquedusud{ background-position: -105px -1171px; width: 25px; height: 17px; }
+.flair-maroc{ background-position: -105px -1190px; width: 25px; height: 17px; }
+.flair-groenland{ background-position: -105px -1209px; width: 25px; height: 17px; }
+.flair-australie{ background-position: -104px -1228px; width: 31px; height: 16px; }
+.flair-newzealand{ background-position: -104px -1245px; width: 31px; height: 17px; }
+.flair-pirate{ background-position: -105px -1262px; width: 25px; height: 16px; }
+.flair-anarchisme{ background-position: -105px -1281px; width: 25px; height: 16px; }
+.flair-frise{ background-position: -105px -1299px; width: 25px; height: 17px; }
+.flair-gwennhadu{ background-position: -105px -1318px; width: 25px; height: 17px; }
+.flair-bearn{ background-position: -105px -1337px; width: 25px; height: 15px; }
+.flair-francosuisse{ background-position: -105px -1354px; width: 20px; height: 20px; }
+.flair-legion{ background-position: -105px -1376px; width: 25px; height: 19px; }
+.flair-cocarde{ background-position: -105px -1398px; width: 21px; height: 21px; }
+.flair-croixlorraine{ background-position: -105px -1419px; width: 20px; height: 29px; }
+.flair-imperial{ background-position: -103px -1450px; width: 32px; height: 33px; }
+.flair-republique{ background-position: -106px -1486px; width: 40px; height: 14px; }
+.flair-ratp{ background-position: -106px -1505px; width: 27px; height: 27px; }
+.flair-minitel{ background-position: -101px -1535px; width: 40px; height: 36px; }
+.flair-charrenault{ background-position: -103px -1570px; width: 42px; height: 27px; }
+.flair-superdupont{ background-position: -103px -1600px; width: 41px; height: 33px; }
+.flair-potion{ background-position: -106px -1638px; width: 29px; height: 30px; }
+.flair-beret{ background-position: -110px -1669px; width: 31px; height: 15px; }
+.flair-guignol{ background-position: -112px -1687px; width: 31px; height: 30px; }
+.flair-viennoiserie{ background-position: -117px -1720px; width: 20px; height: 17px; }
+.flair-frites{ background-position: -113px -1741px; width: 25px; height: 36px; }
+.flair-poutine{ background-position: -110px -1782px; width: 37px; height: 22px; }
+.flair-canele{ background-position: -114px -1809px; width: 25px; height: 31px; }
+.flair-guiness{ background-position: -118px -1845px; width: 17px; height: 31px; }
+.flair-chimay{ background-position: -118px -1879px; width: 17px; height: 39px; }
+.flair-poing{ background-position: -116px -1920px; width: 25px; height: 30px; }
+.flair-grammar{ background-position: -118px -1954px; width: 22px; height: 21px; }
+.flair-coeur{ background-position: -117px -1978px; width: 27px; height: 22px; }
+.flair-photo{ background-position: -120px -2002px; width: 20px; height: 14px; }
+.flair-guitare{ background-position: -98px -1999px; width: 12px; height: 32px; }
+.flair-peinture{ background-position: -70px -2009px; width: 18px; height: 20px; }
+.flair-pipe{ background-position: -130px -32px; width: 34px; height: 18px; }
+.flair-renard{ background-position: -129px -51px; width: 32px; height: 31px; }
+.flair-loutre{ background-position: -131px -85px; width: 33px; height: 29px; }
+.flair-bison{ background-position: -130px -115px; width: 31px; height: 36px; }
+.flair-marmotte{ background-position: -139px -156px; width: 27px; height: 40px; }
+.flair-otarie{ background-position: -138px -200px; width: 43px; height: 19px; }
+.flair-grenouille{ background-position: -142px -224px; width: 35px; height: 38px; }
+.flair-ours{ background-position: -140px -267px; width: 30px; height: 31px; }
+.flair-shrek{ background-position: -137px -302px; width: 37px; height: 41px; }
+.flair-fab{ background-position: -166px -1935px; width: 33px; height: 37px; }
+.flair-nsfw{ background-position: -164px -2009px; width: 35px; height: 27px; }
+.flair-nsfw:hover{ background-position: -164px -1981px; width: 35px; height: 27px; }
+.flair-inde{ background-position: -166px -4px; width: 25px; height: 17px; }
+.flair-danemark{ background-position: -166px -28px; width: 25px; height: 19px; }
+.flair-liban{ background-position: -166px -53px; width: 25px; height: 16px; }
+.flair-oss{ background-position: -137px -346px; width: 28px; height: 33px; }
+.flair-lepers{ background-position: -136px -380px; width: 28px; height: 34px; }
+.flair-kepi{ background-position: -136px -416px; width: 35px; height: 28px; }
+.flair-guillotine{ background-position: -136px -448px; width: 24px; height: 34px; }
+.flair-grd{ background-position: -136px -484px; width: 36px; height: 21px; }
+.flair-comte{ background-position: -136px -507px; width: 34px; height: 21px; }
+.flair-cognac{ background-position: -136px -531px; width: 25px; height: 34px; }
+.flair-saucisson{ background-position: -145px -568px; width: 29px; height: 31px; }
+.flair-rafale{ background-position: -140px -601px; width: 45px; height: 31px; }
+.flair-philippe{ background-position: -144px -634px; width: 27px; height: 36px; }
+.flair-metal{ background-position: -150px -676px; width: 22px; height: 35px; }
+.flair-ananas{ background-position: -153px -714px; width: 18px; height: 35px; }
+.flair-sansculotte{ background-position: -148px -752px; width: 28px; height: 40px; }
+.flair-moustache{ background-position: -144px -796px; width: 36px; height: 14px; }
+.flair-ariane{ background-position: -156px -813px; width: 13px; height: 40px; }
+.flair-didi{ background-position: -144px -857px; width: 40px; height: 35px; }
+.flair-accordeon{ background-position: -144px -895px; width: 37px; height: 24px; }
+.flair-brassens{ background-position: -145px -924px; width: 35px; height: 35px; }
+.flair-arc{ background-position: -145px -963px; width: 33px; height: 35px; }
+.flair-canard{ background-position: -144px -1002px; width: 32px; height: 29px; }
+.flair-marteaufaucille{ background-position: -144px -1035px; width: 31px; height: 30px; }
+.flair-cthulu{ background-position: -144px -1068px; width: 35px; height: 34px; }
+.flair-saxo{ background-position: -144px -1104px; width: 34px; height: 36px; }
+.flair-fleur{ background-position: -144px -1139px; width: 34px; height: 35px; }
+.flair-lys{ background-position: -144px -1176px; width: 28px; height: 34px; }
+.flair-singe{ background-position: -144px -1213px; width: 29px; height: 34px; }
+.flair-ornithorynque{ background-position: -144px -1251px; width: 39px; height: 18px; }
+.flair-quake{ background-position: -144px -1274px; width: 36px; height: 35px; }
+.flair-nyancat{ background-position: -144px -1314px; width: 36px; height: 17px; }
+.flair-italie{ background-position: -144px -1336px; width: 27px; height: 17px; }
+.flair-pologne{ background-position: -144px -1357px; width: 26px; height: 16px; }
+.flair-licorne{ background-position: -144px -1376px; width: 32px; height: 32px; }
+.flair-hk{ background-position: -144px -1412px; width: 26px; height: 17px; }
+.flair-herisson{ background-position: -144px -1433px; width: 30px; height: 26px; }
+.flair-croche{ background-position: -148px -1461px; width: 24px; height: 26px; }
+.flair-hacker2{ background-position: -151px -1492px; width: 22px; height: 20px; }
+.flair-guernesey{ background-position: -144px -1539px; width: 28px; height: 18px; }
+.flair-ut{ background-position: -144px -1562px; width: 30px; height: 30px; }
+.flair-supermeatboy{ background-position: -144px -1594px; width: 32px; height: 23px; }
+.flair-karlmarx{ background-position: -144px -1620px; width: 33px; height: 34px; }
+.flair-pakistan{ background-position: -144px -1658px; width: 33px; height: 22px; }
+.flair-louisiane{ background-position: -144px -1681px; width: 40px; height: 25px; }
+.flair-portugal{ background-position: -144px -1708px; width: 40px; height: 27px; }
+.flair-fougere{ background-position: -144px -1740px; width: 48px; height: 21px; }
+.flair-marteau{ background-position: -144px -1762px; width: 48px; height: 26px; }
+.flair-taiwan { background-position: -147px -1787px; width: 27px; height: 22px; }
+.flair-jospin{ background-position: -165px -1894px; width: 30px; height: 40px; }
+.flair-chefshadok{ background-position: -30px -0px; width: 31px; height: 35px; }
+.flair-devinplombier{ background-position: -27px -114px; width: 35px; height: 35px; }
+.flair-jamy{ background-position: -27px -228px; width: 27px; height: 35px; }
+.flair-gibi{ background-position: -27px -153px; width: 32px; height: 34px; }
+.flair-profshadoko{ background-position: -26px -189px; width: 35px; height: 35px; }
+.flair-gabuzomeu{ background-position: -27px -264px; width: 35px; height: 35px; }
+.flair-shadokpompe{ background-position: -27px -301px; width: 35px; height: 35px; }
+.flair-airbus{ background-position: -25px -338px; width: 45px; height: 30px; }
+.flair-jaures { background-position: -166px -70px; width: 24px; height: 27px; }
+.flair-lordon { background-position: -166px -99px; width: 25px; height: 20px; }
+.flair-abitbol { background-position: -177px -121px; width: 39px; height: 45px; }
+.flair-louisemichel { background-position: -189px -167px; width: 30px; height: 40px; }
+.flair-blum { background-position: -189px -208px; width: 21px; height: 24px; }
+.flair-cheminade { background-position: -189px -240px; width: 30px; height: 35px; }
+.flair-naquitaine { background-position: -192px -280px; width: 30px; height: 35px; }
+.flair-nimportequoi { background-position: -152px -1828px; width: 246px; height: 20px; }
+.flair-anne { background-position: -193px -402px; width: 33px; height: 37px; }
+.flair-liberte { background-position: -192px -443px; width: 48px; height: 37px; }
+.flair-jeannedarc { background-position: -189px -486px; width: 41px; height: 37px; }
+.flair-mariecurie { background-position: -189px -525px; width: 41px; height: 39px; }
+.flair-maite { background-position: -189px -565px; width: 41px; height: 39px; }
+.flair-mariondufaouet { background-position: -189px -604px; width: 24px; height: 33px; }
+.flair-beauvoir { background-position: -189px -643px; width: 33px; height: 38px; }
+.flair-veil { background-position: -189px -682px; width: 33px; height: 38px; }
+.flair-piaf { background-position: -189px -721px; width: 33px; height: 38px; }
+.flair-poutineperuqe { background-position: -192px -761px; width: 33px; height: 38px; }
+.flair-penelope { background-position: -192px -803px; width: 33px; height: 38px; }
+.flair-taubira { background-position: -192px -844px; width: 33px; height: 38px; }
+.flair-alizee { background-position: -192px -882px; width: 27px; height: 36px; }
+.flair-haddock { background-position: -189px -917px; width: 38px; height: 37px; }
+.flair-ceres { background-position: -189px -956px; width: 34px; height: 38px; }
+.flair-melenchon { background-position: -193px -1001px; width: 25px; height: 32px; }
+.flair-edriseur { background-position: -194px -1034px; width: 23px; height: 27px; }
+.flair-tgv { background-position: -192px -1098px; width: 110px; height: 22px; }
+.flair-asterix { background-position: -192px -1121px; width: 30px; height: 33px; }
+.flair-taiwan { background-position: -192px -1156px; width: 34px; height: 22px; }
+.flair-singapour { background-position: -192px -1179px; width: 34px; height: 25px; }
+.flair-nono { background-position: -192px -1209px; width: 31px; height: 31px; }
+.flair-voltaire { background-position: -192px -1243px; width: 31px; height: 31px; }
+.flair-coluche { background-position: -192px -1276px; width: 25px; height: 34px; }
+.flair-rousseau { background-position: -192px -1313px; width: 34px; height: 41px; }
+.flair-desproges { background-position: -192px -1359px; width: 36px; height: 36px; }
+.flair-amiralpoitou { background-position: -192px -1397px; width: 37px; height: 41px; }
+.flair-perceval { background-position: -192px -1441px; width: 24px; height: 31px; }
+.flair-gainsbourg { background-position: -195px -1474px; width: 34px; height: 31px; }
+.flair-ubu { background-position: -195px -1506px; width: 25px; height: 41px; }
+.flair-lci { background-position: -195px -1551px; width: 41px; height: 16px; }
+.flair-zizou { background-position: -195px -1571px; width: 46px; height: 32px; }
+.flair-tzizou { background-position: -195px -1601px; width: 34px; height: 28px; }
+.flair-peppercarrot { background-position: -195px -1635px; width: 31px; height: 31px; }
+.flair-mecronchon  { background-position: -195px -1666px; width: 35px; height: 42px; }
+.flair-inconnus  { background-position: -198px -1710px; width: 47px; height: 30px; }
+.flair-pascalbrutal  { background-position: -202px -1741px; width: 37px; height: 35px; }
+.flair-gaston  { background-position: -199px -1780px; width: 41px; height: 37px; }
+.flair-jeanne  { background-position: -200px -1851px; width: 46px; height: 40px; }
+.flair-planete  { background-position: -203px -1898px; width: 46px; height: 26px; }
+.flair-marsu  { background-position: -199px -0px; width: 215px; height: 35px; }
+.flair-grnx  { background-position: -199px -38px; width: 33px; height: 27px; }
+.flair-rochefort  { background-position: -199px -66px; width: 33px; height: 32px; }
+.flair-beaumarchais  { background-position: -246px -38px; width: 34px; height: 36px; }
+.flair-sisyphe  { background-position: -242px -76px; width: 32px; height: 40px; }
+.flair-ss  { background-position: -279px -40px; width: 50px; height: 34px; }
+.flair-dauphine  { background-position: -338px -40px; width: 25px; height: 25px; }
+.flair-gadget  { background-position: -280px -76px; width: 40px; height: 34px; }
+.flair-amiralpoitou2  { background-position: -323px -76px; width: 28px; height: 34px; }
+.flair-vlc  { background-position: -353px -76px; width: 26px; height: 29px; }
+.flair-coqd  { background-position: -368px -40px; width: 30px; height: 34px; }
+.flair-bonnetane  { background-position: -402px -40px; width: 24px; height: 32px; }
+.flair-gjour  { background-position: -419px -1px; width: 20px; height: 13px; }
+.flair-bebel  { background-position: -425px -76px; width: 28px; height: 33px; }
+.flair-bresil  { background-position: -385px -76px; width: 32px; height: 24px; }
+.flair-respiration  { background-position: -427px -38px; width: 33px; height: 33px; }
+.flair-chouffe  { background-position: -462px -38px; width: 33px; height: 33px; }
+.flair-saliere  { background-position: -462px -80px; width: 32px; height: 31px; }
+.flair-gobelin  { background-position: -243px -117px; width: 32px; height: 26px; }
+.flair-framasoft  { background-position: -280px -113px; width: 33px; height: 33px; }
+.flair-schtroumpf  { background-position: -325px -115px; width: 21px; height: 32px; }
+.flair-nioutaik  { background-position: -358px -118px; width: 70px; height: 19px; }
+.flair-mbappe  { background-position: -463px -115px; width: 29px; height: 31px; }
+.flair-croatie  { background-position: -433px -115px; width: 30px; height: 33px; }
+/* </flairs> */
