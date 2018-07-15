@@ -74,7 +74,7 @@
 .flair-shadokpompe { background-position: -374px -179px; width: 35px; height: 35px; }
 .flair-profshadoko { background-position: -374px -214px; width: 35px; height: 35px; }
 .flair-nsfw { background-position: -374px -249px; width: 35px; height: 27px; }
-.flair-nsfw-hover { background-position: -374px -276px; width: 35px; height: 27px; }
+.flair-nsfw:hover { background-position: -374px -276px; width: 35px; height: 27px; }
 .flair-naquitaine { background-position: -374px -303px; width: 30px; height: 35px; }
 .flair-metal { background-position: -339px -296px; width: 22px; height: 35px; }
 .flair-kepi { background-position: -374px -338px; width: 35px; height: 28px; }
