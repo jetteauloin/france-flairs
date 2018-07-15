@@ -1,0 +1,1899 @@
+/***********************EXEMPLE (A NE PAS SUPPRIMER)************************/
+
+    /*ajouté le [date]*/
+    a.title[href="/r/france/comments/RESTE_DU_LIEN"]:after {
+    content:"Votre texte";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+    color:#228822}
+/* essayez de mettre tout sous le format avec la date puis de virer les vieux*/
+/* à partir de quel âge on est considérés comme vieux ? J'ai 30 ans et j'ai peur*/
+/*  30 ans et 3 mois, l'age du Christ quand il est mort */
+
+/*ajouté le 2018-05-23*/
+    a.title[href="https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037134667&fastReqId=130037027&fastPos=1"]:after {
+    content:"Interprétation douteuse d'OP";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
+/*ajouté le 2018-05-17*/
+
+    a.title[href="http://www.nytimes.com/2018/05/16/us/politics/trump-undocumented-immigrants-animals.html"]:after {
+    content:"En parlant d'un gang ultra violent";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+    color:#228822}
+
+/*ajouté le 2018-05-01*/
+
+    a.title[href="https://www.lemonde.fr/europe/article/2015/04/17/des-migrants-chretiens-auraient-ete-jetes-a-la-mer-par-des-musulmans-au-large-de-l-italie_4617899_3214.html"]:after {
+    content:"2015";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
+/*ajouté le 2018-05-12*/
+
+    a.title[href="http://www.bfmtv.com/police-justice/attaque-au-couteau-a-paris-au-moins-deux-blesses-graves-1444094.html"]:after {
+    content:"un mort et l'assaillant a été abattu";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
+/*ajouté le 2018-06-07*/
+
+    a.title[href="https://twitter.com/fcinq/status/1004772829408178177"]:after {
+    content:"avis perso de l'auteur";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
+/*** ANNONCE BANNIERE ***/
+
+.side .md h6 {
+    background-color: #162f56;
+    font-size:8pt;
+    font-style:bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 6px 3px 6px;
+    width: 260px; /*défaut 240 px*/
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+text-decoration: none;
+    color:#fff;
+    opacity:0.8;
+    display: inline-block;
+margin-top:20px;
+margin-left:20px;
+
+    position: absolute;
+    top: 100px; /*défaut : 110px*/
+left: -5px;
+z-index:5000;
+text-decoration:none;
+}
+.side .md [href*="/comments/3yib0x/bestof_rfrance_2015"]:hover { opacity:1;}
+
+/*** BANNIERE ***/
+
+#header {
+  border-bottom: none;
+  background: url(%%bannermbappe%%) top left;
+  background-color: rgba(0, 0, 0, 0);
+  background-repeat: no-repeat;
+  background-color: #162f56;
+  height: 200px;
+  font-family: Arial,Helvetica,sans-serif;
+   transition: 0.2s ease-out;
+ }
+
+#header-img {
+    position: absolute;
+    left: 5px;
+    top: 60px;
+}
+
+/* TITRE DU SUBREDDIT */
+
+.pagename.redditname a {
+    font-size: 40px;
+    color: rgba(255, 255, 255, 0.9) ;
+ text-shadow:0px 0px 15px #000000;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.pagename.redditname a:hover {
+ text-shadow:0px 0px 10px #45546b;
+ text-decoration: none;
+}
+
+/* BARRE RACCOURCIS SUBREDDITS */
+
+#sr-header-area .drop-choices.srdrop {
+background-color:rgba(22, 47, 86, 0.53);
+z-index : 2000;
+
+}
+
+#sr-header-area {
+background-color: rgba(22, 47, 86, 0.53);
+font-family: Arial, Helvetica, sans-serif;
+    border:none;
+    padding: 3px 0 !important;
+}
+
+#sr-header-area a:active {text-decoration: none; color: #162f56;
+font-weight: bold;}
+
+.res #sr-header-area a.RESShortcutsCurrentSub, #RESSubredditGroupDropdown .RESShortcutsCurrentSub a {
+
+color: #162f56 !important;
+background-color: rgba(255, 255, 255, 0.53);
+padding: 4px !important;}
+
+#RESShortcuts a:hover, #sr-header-area a:hover {
+background-color:#45546b;
+color:#fff;
+padding-top:4px !important;
+padding-bottom:4px !important;
+}
+
+#sr-header-area a {
+	color: #fff;
+}
+
+/* BARRE PROFIL */
+
+#header #header-bottom-right {
+    position: absolute;
+    right: 0px;
+    top: 175px;
+    z-index: 500;
+    background-color: rgba(255, 255, 255, 0.53);
+    padding: 4px;
+    }
+#header #header-bottom-right a {
+    color: #162f56;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    }
+.separator {
+    color: #6B6B6B;
+    }
+
+#userbarToggle.userbarHide, #userbarToggle.userbarShow {
+background-color:rgba(255, 255, 255, 0.53);
+border:none;
+color:#162f56;
+}
+
+/* MENU */
+
+#header .tabmenu {
+    position: absolute;
+    top: 173px;
+    left: -3px;
+    z-index: 200;
+}
+
+#header .tabmenu li a {
+    background-color:rgba(255, 255, 255, 0.53);
+    color: #162f56;
+    text-transform: uppercase;
+    padding: 6px;
+    font-size:11px;
+
+    color: #162f56;
+    text-transform: uppercase;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header .tabmenu li a:hover {
+    background-color:#45546b;
+color:#fff;
+
+}
+#header .tabmenu li.selected a {
+    background-color:rgb(239, 239, 239);
+color: #45546b;
+border : none;
+
+}
+
+/* SEARCHBAR */
+
+#search input[type=text] {
+
+margin: 12px 20px 10px 15px;
+width: 200px;
+padding: 2px;
+border : none;
+background-color: #162f56;
+color:#fff !important;
+font-family: Arial, Helvetica, sans-serif;
+font-size:10pt;
+}
+
+.res-nightmode #search input[type=text] { background-color: #444 !important; }
+
+#searchexpando {
+	background: transparent;
+	border: 0px;
+
+	font-size: 8pt;
+}
+
+.linkinfo {
+border-radius: none;
+border: 0;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* SUBMIT BUTTON */
+
+.submit .morelink  {
+background-image: none;
+ background-color: #162f56;
+border : 0;
+    width: 250px;
+ margin-left: 37px;
+}
+
+.submit .morelink a {
+    color: #fff;
+font-family: Arial, Helvetica, sans-serif;
+border : 0;
+
+}
+
+.submit .morelink:hover {
+    background-image: none;
+    background-color: #45546b;
+border : 0;
+    color: #FFF;
+}
+
+.submit .morelink:hover a { color: #FFF; }
+
+.nub {
+    display: none;
+}
+
+/* SIDEBAR */
+
+.side {
+font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px;
+    box-shadow: -2px 0 7px rgba(0,0,0,.3);
+
+padding: 0px 20px 0px 0px;
+    }
+
+.subscribers,
+.users-online,
+.leavemoderator,
+.titlebox .toggle {
+	font-size: 8pt;
+}
+
+.titlebox { background: #FFF; border: 0px; border-radius: 0px; padding: 7px; margin-left:7px;}
+.side .redditname {
+	text-transform : uppercase;
+color:#741e1e;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.fancy-toggle-button .active {background:#3f9143; border-radius:0px;}
+
+.side .redditname a:hover {
+	text-transform : uppercase;
+color : #45546b;
+text-decoration : none;
+
+}
+
+.titlebox .word { display: none; }
+.subscribers .number:before { content: ' Un village de '; }
+.subscribers .number:after { content: ' grenouilles'; }
+.users-online .number:before { content: ' Dont '; }
+.users-online .number:after { content: ' coassent dans la mare.'; }
+
+.tagline a.flairselectbtn {
+color: white;
+font-size:0px;
+
+}
+
+.tagline a.flairselectbtn:before { content: "Choisir un flair";
+background-color:#F0F3FC;
+color: #000;
+padding:2px 6px 2px 6px;
+    font-size:10px;
+    font-weight:bold;
+
+}
+
+.linkinfo {
+margin-left: 10px;
+width:100%;
+}
+
+.side table {
+	margin: 0px ;
+	width: 100%;
+	border-left: 7px  ;
+
+}
+
+/* TITRES SIDEBAR */
+
+.side .md {
+    overflow: visible !important;
+
+    font-size: 12px;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.side .md h1{
+    background: #45546b;
+    color: #ffffff;
+    padding:5px 0 5px 20px;
+    font-size:16px;
+    margin:10px -27px 10px -23px;
+font-weight: bold;
+letter-spacing: -0.5px;
+
+}
+.side .md h1:after{
+    border-color: transparent #434a4a transparent transparent !important;
+    border-style: solid;
+    border-width: 10px;
+    content: "";
+    display: block;
+    height: 0;
+    margin-left: -30px;
+    margin-top: -5px;
+    position: absolute;
+    width: 0;
+    z-index: -1;
+}
+.side .md h1 em {
+    color: #FFF;
+    font-size: 70%;
+    font-style: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    vertical-align: text-top;
+}
+
+.side .md h2{
+    background: #162f56;
+    color: #fff;
+    padding:3px 0px 3px 10px;
+    font-size:14px;
+    font-weight:bold;
+    margin:0px -27px 0px 3px;
+
+}
+
+.side .md h3{
+	color: #162f56;
+	padding:3px 0px 3px 0px;
+	font-size:13px;
+	font-weight:bold;
+	text-transform: uppercase;
+	margin:3px 0px 3px 0px;
+	}
+
+.side .md h4 {
+display:inline-block;
+    position:absolute;
+background-color: rgba(255, 255, 255, 0.53);
+top: 40px;
+right: 25px;
+text-transform:uppercase;
+padding:1px;
+    font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+z-index:1000;
+text-decoration:none;
+color:rgb(22, 47, 86);
+}
+.side .md h4:hover{
+text-shadow: 0px 0px 2px #fff;
+}
+
+.side .md h5{
+
+    padding:3px 0px 3px 3px;
+    font-size:12px;
+border-top:1px solid #45546b;
+margin-right:-23px;
+}
+
+ .sidebox.create {
+	display: none;
+}
+
+.sidecontentbox {
+
+margin : 0 0 0 10px;
+}
+
+.sidecontentbox a.author {
+border:0;
+color: #45546b;
+
+}
+
+/*** POSTS ***/
+
+.sitetable .link .title a.title, .sitetable .link .title a.title.click, .single-page > .content > .sitetable .link .title a.title {
+    color: #162f56;;
+}
+
+.sitetable .link .title a.title:hover, .sitetable .link .title a.title.click:hover, .single-page > .content > .sitetable .link .title a.title:hover{
+   text-decoration: underline;
+
+}
+
+.sitetable .link .title a.title:visited, .sitetable .link .title a.title.click:visited, .single-page > .content > .sitetable .link .title a.title:visited{
+
+    color: #5F7396 /*ancien : 45546b */
+}
+
+div.content {
+    margin:10px 330px 0 0;
+}
+
+.listing-page > .content {
+    padding-top:10px;
+}
+
+div.link {
+
+    position: relative;
+}
+
+.
+nail.self, .thumbnail.default {
+    height: 50px;
+    background-image: url(%%thumbnail%%) !important;
+        background-position: 0px 0px;
+    background-repeat: no-repeat;
+
+}
+
+.link .usertext .md {
+    border-radius:0px;
+}
+
+.res-nightmode:not(.res-nightMode-coloredLinks) .sitetable .link .title a.title {
+    color: #DDD;
+}
+
+.res-nightmode:not(.res-nightMode-coloredLinks) .sitetable .link .title a.title:hover, .sitetable .link .title a.title.click:hover, .single-page > .content > .sitetable .link .title a.title:hover{
+   text-decoration: underline;
+
+}
+
+.res-nightmode:not(.res-nightMode-coloredLinks) .sitetable .link .title a.title:visited, .sitetable .link .title a.title.click:visited, .single-page > .content > .sitetable .link .title a.title:visited{
+
+    color: #45546B;
+}
+
+/*** LINK FLAIRS ***/
+
+.thumbnail {
+overflow:visible;
+}
+
+ .linkflairlabel{
+font-family: Arial, Helvetica, sans-serif;
+
+text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 75px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+}
+
+ .linkflairlabel:hover{
+
+    opacity:1;
+}
+
+/*** FLAIR POLITIQUE ***/
+.linkflair-red .linkflairlabel {
+
+    background-color: #000;
+}
+
+/*** FLAIR SOCIETE ***/
+.linkflair-yellow .linkflairlabel {
+
+background-color: #162f56;
+}
+
+/*** FLAIR TECHNOS ***/
+.linkflair-blue .linkflairlabel {
+
+    background-color:#164a9a;
+}
+
+/*** FLAIR SPORT ***/
+.linkflair-gray .linkflairlabel {
+
+background-color:#72b242;
+}
+
+/*** FLAIR AMA ***/
+.linkflair-purple .linkflairlabel {
+
+    background-color:#7d4f0b;
+}
+
+/*** FLAIR ASKFRANCEE ***/
+.linkflair-orange .linkflairlabel {
+
+background-color:#ff7724;
+}
+
+/*** FLAIR AIDE HELP ***/
+.linkflair-pink .linkflairlabel {
+
+background-color:#dfb300;
+}
+
+/*** FLAIR CULTURE ***/
+.linkflair-green .linkflairlabel {
+
+ background-color: #007158;
+}
+
+/*** FLAIR FORUM LIBRE ***/
+.linkflair-black .linkflairlabel {
+
+ background-color:#216a00;
+}
+
+/*** FLAIR PAYWALL ***/
+.linkflair-pink2 .linkflairlabel {
+
+    background-color: #E77471;
+}
+
+/*** FLAIR MODERATION ***/
+.linkflair-asphalt .linkflairlabel {
+
+    background-color:#e22323;
+}
+
+/*** FLAIR ACTU ***/
+.linkflair-blay .linkflairlabel {
+
+    background-color:#45546b;
+}
+
+/*** FLAIR HUMOUR ***/
+.linkflair-rose .linkflairlabel {
+
+    background-color:#7e2a79;
+}
+
+/*** FLAIR SCIENCE ***/
+.linkflair-teal .linkflairlabel {
+
+    background-color:#81BEF7;
+}
+
+/*** FLAIR K.K. POST ***/
+/*.linkflair-kkpost .linkflairlabel {
+
+    background-color:#52310D;
+}/*
+
+/* Filtre linkflair politique*/
+
+html:lang(xs) .linkflair-red {
+    display: none    }
+
+/* Filtre linkflair kkpost*/
+
+/*html:lang(xk) .linkflair-kkpost {
+    display: none    }*/
+
+/* Filtre linkflair humour*/
+
+html:lang(xh) .linkflair-rose {
+    display: none    }
+
+/*filtrer les deux*/
+
+html:lang(xt) .linkflair-rose {
+display: none    }
+
+html:lang(xt) .linkflair-red {
+    display: none    }
+
+/*filtrer meta*/
+
+html:lang(xm) .linkflair-asphalt {
+display: none    }
+
+/*filtrer politique, actu et société*/
+
+html:lang(xa) .linkflair-red {
+display: none    }
+
+html:lang(xa) .linkflair-blay {
+    display: none    }
+
+html:lang(xa) .linkflair-yellow {
+    display: none    }
+
+/*filtrer sport*/
+
+html:lang(xp) .linkflair-gray {
+    display: none    }
+
+/* FLAIRS DANS LA SIDEBAR */
+
+/* Méta */
+
+.side .md [href*="search?q=flair%3A%27M%C3%A9ta"] {
+    background: #e22323;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair_css_class%3A%27asphalt"]:hover { opacity:1;}
+
+/* Société */
+.side .md [href*="search?q=flair%3A%27Soci%C3%A9t%C3%A9"] {
+    background: #162f56;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px 3px 3px 20px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Soci%C3%A9t%C3%A9"]:hover { opacity:1;}
+
+/* Technos */
+
+.side .md [href*="search?q=flair%3A%27Technos"] {
+    background: #164a9a;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px 3px 3px 20px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Technos"]:hover { opacity:1;}
+
+/* Sport */
+
+.side .md [href*="search?q=flair%3A%27Sport"] {
+    background: #72b242;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Sport"]:hover { opacity:1;}
+
+/* AMA */
+
+.side .md [href*="search?q=flair%3A%27AMA"] {
+    background: #7d4f0b;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27AMA"]:hover { opacity:1;}
+
+/* forum libre */
+
+.side .md [href*="search?q=flair%3A%27Forum%20libre"] {
+    background: #216a00;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top;
+    word-break: keep-all; }
+.side .md [href*="search?q=flair%3A%27Forum%20libre"]:hover { opacity:1;}
+
+/* Paywall */
+
+.side .md [href*="search?q=flair%3A%27pink2"] {
+    background: #E77471;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27pink2"]:hover { opacity:1;}
+
+/* Culture */
+.side .md [href*="search?q=flair%3A%27Culture"] {
+    background: #007158;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Culture"]:hover { opacity:1;}
+
+/* Ask help */
+
+.side .md [href*="search?q=flair%3A%27Aide/Help"] {
+    background: #dfb300;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Aide/Help"]:hover { opacity:1;}
+
+/* Askfrance */
+
+.side .md [href*="search?q=flair%3A%27Ask%20France"] {
+    background: #ff7724;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Ask%20France"]:hover { opacity:1;}
+
+/* science */
+
+.side .md [href*="search?q=flair%3A%27Science"] {
+    background: #81BEF7;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px 3px 3px 20px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Science"]:hover { opacity:1;}
+
+/* news */
+
+.side .md [href*="search?q=flair_css_class%3A%27blay"] {
+    background: #45546b;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px 3px 3px 20px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair_css_class%3A%27blay"]:hover { opacity:1;}
+
+/* humour */
+
+.side .md [href*="search?q=flair%3A%27Humour"] {
+    background: #7e2a79;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Humour"]:hover { opacity:1;}
+
+/* politique */
+
+.side .md [href*="search?q=flair%3A%27Politique"] {
+    background: #000;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 77px;
+    border:none;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px 3px 3px 20px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="search?q=flair%3A%27Politique"]:hover { opacity:1;}
+
+/* bouton cacher la politique */
+
+.side .md [href*="xs.reddit.com/r/france"] {
+    background: #000;
+    border: none;
+    font-size:8pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    padding: 3px 0px 3px 0px;
+    width: 164px;
+    border-radius: 0px;
+    text-align:center;
+    color:#fff;
+    opacity:0.85;
+    margin: 3px;
+    display: inline-block;
+    vertical-align: top; }
+.side .md [href*="xs.reddit.com/r/france"]:hover { opacity:1;}
+
+.post-submitter .link:not(.linkflair) .flairselectbtn { position: relative; }
+.post-submitter .link:not(.linkflair) .flairselectbtn:before {
+position: absolute;
+content: 'Choisir une catégorie';
+background: rgba(255,0,0,.7);
+color: #fff;
+top: -3.5em;
+left: -8em;
+height: 1.5em;
+padding: 5px 10px;
+line-height: 1.5;
+text-align: center;}
+
+.post-submitter .link:not(.linkflair) .flairselectbtn:after {
+width: 0;
+height: 0;
+border-style: solid;
+border-width: 1em .5em 0;
+border-color: rgba(255,0,0,.7) transparent transparent;
+top: -1em;
+left: 1em;
+content: '';
+position: absolute;}
+
+.post-submitter .link:not(.linkflair) .flairselectbtn:hover:before { background: #f00; }
+.post-submitter .link:not(.linkflair) .flairselectbtn:hover:after { border-color: #f00 transparent transparent; }
+
+/*** USER FLAIRS ***/
+
+.flairselector .customizer {
+display: none !important;
+}
+
+.flair {
+border: none !important;
+top:0px;
+padding:0px;
+background: url(%%spritesheet%%);
+display:inline-block;
+
+text-indent: -1000em; overflow: hidden;
+    -webkit-transition-duration: 0.40s;
+    transition-duration: 0.40s;
+}
+
+@-webkit-keyframes ROTATE {
+  from { -webkit-transform:rotate(0deg); }
+  to { -webkit-transform:rotate(-360deg); }
+}
+
+.flair:hover{
+   -webkit-transform:rotate(-360deg);
+   transform:rotate(360deg);
+
+}
+
+#container li {
+    background: url(%%spritesheet%%) no-repeat top left;
+}
+.flair-ubomw { background-position: -216px -1966px; width: 29px; height: 40px; }
+.flair-ubomw:hover{ background-position: -216px -2007px; width: 39px; height: 31px; }
+
+.flair-Alsace{ background-position: 0 0; width: 20px; height: 20px; }
+.flair-Aquitaine{ background-position: 0 -70px; width: 20px; height: 20px; }
+.flair-Auvergne{ background-position: 0 -140px; width: 20px; height: 20px; }
+.flair-Bourgogne{ background-position: 0 -210px; width: 20px; height: 20px; }
+.flair-Bretagne{ background-position: 0 -280px; width: 20px; height: 20px; }
+.flair-Centre{ background-position: 0 -350px; width: 20px; height: 20px; }
+.flair-Champagne{ background-position: 0 -420px; width: 20px; height: 20px; }
+.flair-Corse{ background-position: 0 -490px; width: 20px; height: 20px; }
+.flair-Franche{ background-position: 0 -560px; width: 20px; height: 20px; }
+.flair-IDF{ background-position: 0 -630px; width: 20px; height: 20px; }
+.flair-Languedoc{ background-position: 0 -700px; width: 20px; height: 20px; }
+.flair-Limousin{ background-position: 0 -770px; width: 20px; height: 20px; }
+.flair-Lorraine{ background-position: 0 -840px; width: 20px; height: 20px; }
+.flair-MPyrenees{ background-position: 0 -910px; width: 20px; height: 20px; }
+.flair-NPDC{ background-position: 0 -980px; width: 20px; height: 20px; }
+.flair-Normandie{ background-position: 0 -1050px; width: 20px; height: 20px; }
+.flair-PACA{ background-position: 0 -1120px; width: 20px; height: 20px; }
+.flair-PDL{ background-position: 0 -1190px; width: 22px; height: 20px; }
+.flair-Picardie{ background-position: 0 -1260px; width: 20px; height: 20px; }
+.flair-Poitou{ background-position: 0 -1330px; width: 20px; height: 20px; }
+.flair-Rhone{ background-position: 0 -1400px; width: 20px; height: 20px; }
+.flair-S971{ background-position: 0 -1470px; width: 20px; height: 13px; }
+.flair-S972{ background-position: 0 -1533px; width: 20px; height: 20px; }
+.flair-S973{ background-position: 0 -1603px; width: 20px; height: 20px; }
+.flair-S974{ background-position: 0 -1673px; width: 20px; height: 20px; }
+.flair-S976{ background-position: 0 -1743px; width: 20px; height: 20px; }
+.flair-T975{ background-position: 0 -1813px; width: 20px; height: 13px; }
+.flair-T977{ background-position: 0 -1876px; width: 20px; height: 20px; }
+.flair-T978{ background-position: 0 -1946px; width: 20px; height: 20px; }
+.flair-T986{ background-position: -70px 0; width: 20px; height: 20px; }
+.flair-T987{ background-position: -70px -70px; width: 20px; height: 20px; }
+.flair-T988{ background-position: -70px -140px; width: 11px; height: 20px; }
+.flair-TAAF{ background-position: -70px -210px; width: 20px; height: 13px; }
+.flair-YAFrance{ background-position: -70px -273px; width: 22px; height: 14px; }
+.flair-YEuskadi{ background-position: -70px -337px; width: 20px; height: 11px; }
+.flair-YSavoie{ background-position: -70px -398px; width: 20px; height: 20px; }
+.flair-ZAFrancophonie{ background-position: -70px -468px; width: 21px; height: 20px; }
+.flair-ZBBelgique{ background-position: -70px -538px; width: 20px; height: 18px; }
+.flair-ZBSVUE{ background-position: -70px -606px; width: 20px; height: 13px; }
+.flair-ZBSuisse{ background-position: -70px -669px; width: 20px; height: 20px; }
+.flair-ZBTLuxembourg{ background-position: -70px -739px; width: 20px; height: 12px; }
+.flair-ZBTQuebec{ background-position: -70px -801px; width: 20px; height: 14px; }
+.flair-ZBelbru{ background-position: -70px -865px; width: 20px; height: 20px; }
+.flair-ZBelwal{ background-position: -70px -935px; width: 20px; height: 20px; }
+.flair-ZCanada{ background-position: -70px -1005px; width: 22px; height: 10px; }
+.flair-ZUK{ background-position: -70px -1065px; width: 20px; height: 10px; }
+.flair-Zecosse{ background-position: -70px -1660px; width: 20px; height: 15px; }
+.flair-Zengland{ background-position: -69px -1678px; width: 22px; height: 12px; }
+.flair-Zjapon{ background-position: -68px -1876px; width: 27px; height: 17px; }
+.flair-Zisrael{ background-position: -68px -1946px; width: 22px; height: 17px; }
+.flair-Znorvege{ background-position: -68px -1988px; width: 22px; height: 16px; }
+.flair-Zirlande{ background-position: -104px -841px; width: 25px; height: 13px; }
+.flair-Zpaysdegalle{ background-position: -104px -859px; width: 27px; height: 16px; }
+.flair-Zcornouaille{ background-position: -104px -879px; width: 27px; height: 17px; }
+.flair-Zcoree{ background-position: -103px -899px; width: 27px; height: 18px; }
+.flair-Zallemagne{ background-position: -104px -919px; width: 25px; height: 15px; }
+.flair-Zhongrie{ background-position: -104px -937px; width: 25px; height: 12px; }
+.flair-Zitalie{ background-position: -104px -951px; width: 22px; height: 15px; }
+.flair-Zespagne{ background-position: -104px -968px; width: 25px; height: 17px; }
+.flair-Zpaysbas{ background-position: -104px -987px; width: 25px; height: 17px; }
+.flair-Zsuede{ background-position: -104px -1006px; width: 25px; height: 16px; }
+.flair-Zpologne{ background-position: -104px -1024px; width: 25px; height: 16px; }
+.flair-Zlatverie{ background-position: -105px -1044px; width: 28px; height: 14px; }
+.flair-Znepal{ background-position: -105px -1059px; width: 25px; height: 30px; }
+.flair-Zsenegal{ background-position: -105px -1091px; width: 25px; height: 17px; }
+.flair-Zbelleile{ background-position: -105px -1111px; width: 25px; height: 17px; }
+.flair-Zparis{ background-position: -105px -1131px; width: 20px; height: 20px; }
+.flair-Zfinlande{ background-position: -105px -1154px; width: 25px; height: 15px; }
+.flair-ZUS{ background-position: -70px -1125px; width: 20px; height: 10px; }
+.flair-ZZChaton{ background-position: -70px -1185px; width: 21px; height: 18px; }
+.flair-ZZsanglier{ background-position: -70px -1740px; width: 22px; height: 25px; }
+.flair-ZZZBot{ background-position: -70px -1253px; width: 18px; height: 20px; }
+.flair-ZZZZZpace{ background-position: -70px -1323px; width: 23px; height: 17px; }
+.flair-ZZZZZtroll{ background-position: -70px -1390px; width: 25px; height: 20px; }
+.flair-ZZZZalgU00e9rie{ background-position: -70px -1460px; width: 30px; height: 20px; }
+.flair-ZZZZalgerie{ background-position: -70px -1530px; width: 20px; height: 13px; }
+.flair-ZZZZtunisie{ background-position: -70px -1593px; width: 20px; height: 15px; }
+.flair-ZZZZphilippines{ background-position: -70px -1814px; width: 25px; height: 13px; }
+.flair-ZZZZZZpoulpe{ background-position: -100px -0px; width: 25px; height: 25px; }
+.flair-ZZZZZZpoisson{ background-position: -100px -26px; width: 25px; height: 25px; }
+.flair-ZZZZZZoiseau{ background-position: -100px -51px; width: 25px; height: 25px; }
+.flair-ZZZZZZoiseaucape{ background-position: -101px -527px; width: 33px; height: 28px; }
+.flair-ZZZZZZpingouin{ background-position: -100px -77px; width: 23px; height: 25px; }
+.flair-ZZZZZZescargot{ background-position: -100px -102px; width: 26px; height: 22px; }
+.flair-ZZZZZZsouris{ background-position: -100px -125px; width: 22px; height: 24px; }
+.flair-ZZZZZZcrabe{ background-position: -100px -150px; width: 29px; height: 24px; }
+.flair-ZZZZZZpoisson2{ background-position: -100px -174px; width: 30px; height: 26px; }
+.flair-ZZZZZZmorse{ background-position: -100px -200px; width: 29px; height: 23px; }
+.flair-ZZZZZZchauvesouris{ background-position: -100px -224px; width: 29px; height: 22px; }
+.flair-ZZZZZZcriquet{ background-position: -100px -246px; width: 29px; height: 19px; }
+.flair-ZZZZZZhirondelle{ background-position: -100px -265px; width: 29px; height: 25px; }
+.flair-ZZZZZZcrevette{ background-position: -100px -292px; width: 28px; height: 27px; }
+.flair-ZZZZZZaraignée{ background-position: -100px -320px; width: 31px; height: 25px; }
+.flair-ZZZZZZhippocampe{ background-position: -100px -346px; width: 19px; height: 27px; }
+.flair-ZZZZZZcygne{ background-position: -100px -373px; width: 30px; height: 24px; }
+.flair-ZZZZZZcoq{ background-position: -100px -398px; width: 29px; height: 24px; }
+.flair-ZZZZZZoiseau2{ background-position: -100px -422px; width: 31px; height: 26px; }
+.flair-ZZZZZZpelican{ background-position: -100px -447px; width: 32px; height: 26px; }
+.flair-ZZZZZZratonlaveur{ background-position: -100px -476px; width: 30px; height: 24px; }
+.flair-ZZZZZZguepard{ background-position: -100px -501px; width: 31px; height: 24px; }
+.flair-ZZZZZZchiot{ background-position: -103px -556px; width: 28px; height: 26px; }
+.flair-ZZZZZZchatf{ background-position: -103px -585px; width: 36px; height: 33px; }
+.flair-ZZZZZZchatl{ background-position: -106px -685px; width: 33px; height: 33px; }
+.flair-ZZZZZZdinosaure1{ background-position: -105px -618px; width: 34px; height: 35px; }
+.flair-ZZZZZZdinosaure2{ background-position: -105px -654px; width: 34px; height: 29px; }
+.flair-ZZZZZZcroissant{ background-position: -106px -721px; width: 32px; height: 18px; }
+.flair-ZZZZZZbaguette{ background-position: -107px -742px; width: 38px; height: 17px; }
+.flair-ZZZZZZvin{ background-position: -109px -760px; width: 12px; height: 40px; }
+.flair-ZZZZZZcamembert{ background-position: -108px -803px; width: 32px; height: 30px; }
+.flair-ZZZZZZhacker{ background-position: -129px -2px; width: 22px; height: 20px; }
+.flair-afriquedusud{ background-position: -105px -1171px; width: 25px; height: 17px; }
+.flair-maroc{ background-position: -105px -1190px; width: 25px; height: 17px; }
+.flair-groenland{ background-position: -105px -1209px; width: 25px; height: 17px; }
+.flair-australie{ background-position: -104px -1228px; width: 31px; height: 16px; }
+.flair-newzealand{ background-position: -104px -1245px; width: 31px; height: 17px; }
+.flair-pirate{ background-position: -105px -1262px; width: 25px; height: 16px; }
+.flair-anarchisme{ background-position: -105px -1281px; width: 25px; height: 16px; }
+.flair-frise{ background-position: -105px -1299px; width: 25px; height: 17px; }
+.flair-gwennhadu{ background-position: -105px -1318px; width: 25px; height: 17px; }
+.flair-bearn{ background-position: -105px -1337px; width: 25px; height: 15px; }
+.flair-francosuisse{ background-position: -105px -1354px; width: 20px; height: 20px; }
+.flair-legion{ background-position: -105px -1376px; width: 25px; height: 19px; }
+.flair-cocarde{ background-position: -105px -1398px; width: 21px; height: 21px; }
+.flair-croixlorraine{ background-position: -105px -1419px; width: 20px; height: 29px; }
+.flair-imperial{ background-position: -103px -1450px; width: 32px; height: 33px; }
+.flair-republique{ background-position: -106px -1486px; width: 40px; height: 14px; }
+.flair-ratp{ background-position: -106px -1505px; width: 27px; height: 27px; }
+.flair-minitel{ background-position: -101px -1535px; width: 40px; height: 36px; }
+.flair-charrenault{ background-position: -103px -1570px; width: 42px; height: 27px; }
+.flair-superdupont{ background-position: -103px -1600px; width: 41px; height: 33px; }
+.flair-potion{ background-position: -106px -1638px; width: 29px; height: 30px; }
+.flair-beret{ background-position: -110px -1669px; width: 31px; height: 15px; }
+.flair-guignol{ background-position: -112px -1687px; width: 31px; height: 30px; }
+.flair-viennoiserie{ background-position: -117px -1720px; width: 20px; height: 17px; }
+.flair-frites{ background-position: -113px -1741px; width: 25px; height: 36px; }
+.flair-poutine{ background-position: -110px -1782px; width: 37px; height: 22px; }
+.flair-canele{ background-position: -114px -1809px; width: 25px; height: 31px; }
+.flair-guiness{ background-position: -118px -1845px; width: 17px; height: 31px; }
+.flair-chimay{ background-position: -118px -1879px; width: 17px; height: 39px; }
+.flair-poing{ background-position: -116px -1920px; width: 25px; height: 30px; }
+.flair-grammar{ background-position: -118px -1954px; width: 22px; height: 21px; }
+.flair-coeur{ background-position: -117px -1978px; width: 27px; height: 22px; }
+.flair-photo{ background-position: -120px -2002px; width: 20px; height: 14px; }
+.flair-guitare{ background-position: -98px -1999px; width: 12px; height: 32px; }
+.flair-peinture{ background-position: -70px -2009px; width: 18px; height: 20px; }
+.flair-pipe{ background-position: -130px -32px; width: 34px; height: 18px; }
+.flair-renard{ background-position: -129px -51px; width: 32px; height: 31px; }
+.flair-loutre{ background-position: -131px -85px; width: 33px; height: 29px; }
+.flair-bison{ background-position: -130px -115px; width: 31px; height: 36px; }
+.flair-marmotte{ background-position: -139px -156px; width: 27px; height: 40px; }
+.flair-otarie{ background-position: -138px -200px; width: 43px; height: 19px; }
+.flair-grenouille{ background-position: -142px -224px; width: 35px; height: 38px; }
+.flair-ours{ background-position: -140px -267px; width: 30px; height: 31px; }
+.flair-shrek{ background-position: -137px -302px; width: 37px; height: 41px; }
+.flair-fab{ background-position: -166px -1935px; width: 33px; height: 37px; }
+.flair-nsfw{ background-position: -164px -2009px; width: 35px; height: 27px; }
+.flair-nsfw:hover{
+background-position: -164px -1981px; width: 35px; height: 27px;
+}
+.flair-inde{ background-position: -166px -4px; width: 25px; height: 17px; }
+.flair-danemark{ background-position: -166px -28px; width: 25px; height: 19px; }
+.flair-liban{ background-position: -166px -53px; width: 25px; height: 16px; }
+.flair-oss{ background-position: -137px -346px; width: 28px; height: 33px; }
+.flair-lepers{ background-position: -136px -380px; width: 28px; height: 34px; }
+.flair-kepi{ background-position: -136px -416px; width: 35px; height: 28px; }
+.flair-guillotine{ background-position: -136px -448px; width: 24px; height: 34px; }
+.flair-grd{ background-position: -136px -484px; width: 36px; height: 21px; }
+.flair-comte{ background-position: -136px -507px; width: 34px; height: 21px; }
+.flair-cognac{ background-position: -136px -531px; width: 25px; height: 34px; }
+.flair-saucisson{ background-position: -145px -568px; width: 29px; height: 31px; }
+.flair-rafale{ background-position: -140px -601px; width: 45px; height: 31px; }
+.flair-philippe{ background-position: -144px -634px; width: 27px; height: 36px; }
+.flair-metal{ background-position: -150px -676px; width: 22px; height: 35px; }
+.flair-ananas{ background-position: -153px -714px; width: 18px; height: 35px; }
+.flair-sansculotte{ background-position: -148px -752px; width: 28px; height: 40px; }
+.flair-moustache{ background-position: -144px -796px; width: 36px; height: 14px; }
+.flair-ariane{ background-position: -156px -813px; width: 13px; height: 40px; }
+.flair-didi{ background-position: -144px -857px; width: 40px; height: 35px; }
+.flair-accordeon{ background-position: -144px -895px; width: 37px; height: 24px; }
+.flair-brassens{ background-position: -145px -924px; width: 35px; height: 35px; }
+.flair-arc{ background-position: -145px -963px; width: 33px; height: 35px; }
+.flair-canard{ background-position: -144px -1002px; width: 32px; height: 29px; }
+.flair-marteaufaucille{ background-position: -144px -1035px; width: 31px; height: 30px; }
+.flair-cthulu{ background-position: -144px -1068px; width: 35px; height: 34px; }
+.flair-saxo{ background-position: -144px -1104px; width: 34px; height: 36px; }
+.flair-fleur{ background-position: -144px -1139px; width: 34px; height: 35px; }
+.flair-lys{ background-position: -144px -1176px; width: 28px; height: 34px; }
+.flair-singe{ background-position: -144px -1213px; width: 29px; height: 34px; }
+.flair-ornithorynque{ background-position: -144px -1251px; width: 39px; height: 18px; }
+.flair-quake{ background-position: -144px -1274px; width: 36px; height: 35px; }
+.flair-nyancat{ background-position: -144px -1314px; width: 36px; height: 17px; }
+.flair-italie{ background-position: -144px -1336px; width: 27px; height: 17px; }
+.flair-pologne{ background-position: -144px -1357px; width: 26px; height: 16px; }
+.flair-licorne{ background-position: -144px -1376px; width: 32px; height: 32px; }
+.flair-hk{ background-position: -144px -1412px; width: 26px; height: 17px; }
+.flair-herisson{ background-position: -144px -1433px; width: 30px; height: 26px; }
+.flair-croche{ background-position: -148px -1461px; width: 24px; height: 26px; }
+.flair-hacker2{ background-position: -151px -1492px; width: 22px; height: 20px; }
+.flair-guernesey{ background-position: -144px -1539px; width: 28px; height: 18px; }
+.flair-ut{ background-position: -144px -1562px; width: 30px; height: 30px; }
+.flair-supermeatboy{ background-position: -144px -1594px; width: 32px; height: 23px; }
+.flair-karlmarx{ background-position: -144px -1620px; width: 33px; height: 34px; }
+.flair-pakistan{ background-position: -144px -1658px; width: 33px; height: 22px; }
+.flair-louisiane{ background-position: -144px -1681px; width: 40px; height: 25px; }
+.flair-portugal{ background-position: -144px -1708px; width: 40px; height: 27px; }
+.flair-fougere{ background-position: -144px -1740px; width: 48px; height: 21px; }
+.flair-marteau{ background-position: -144px -1762px; width: 48px; height: 26px; }
+.flair-taiwan { background-position: -147px -1787px; width: 27px; height: 22px; }
+.flair-jospin{ background-position: -165px -1894px; width: 30px; height: 40px; }
+.flair-chefshadok{ background-position: -30px -0px; width: 31px; height: 35px; }
+.flair-devinplombier{ background-position: -27px -114px; width: 35px; height: 35px; }
+.flair-jamy{ background-position: -27px -228px; width: 27px; height: 35px; }
+.flair-gibi{ background-position: -27px -153px; width: 32px; height: 34px; }
+.flair-profshadoko{ background-position: -26px -189px; width: 35px; height: 35px; }
+.flair-gabuzomeu{ background-position: -27px -264px; width: 35px; height: 35px; }
+.flair-shadokpompe{ background-position: -27px -301px; width: 35px; height: 35px; }
+.flair-airbus{ background-position: -25px -338px; width: 45px; height: 30px; }
+.flair-jaures { background-position: -166px -70px; width: 24px; height: 27px; }
+.flair-lordon { background-position: -166px -99px; width: 25px; height: 20px; }
+.flair-abitbol { background-position: -177px -121px; width: 39px; height: 45px; }
+.flair-louisemichel { background-position: -189px -167px; width: 30px; height: 40px; }
+.flair-blum { background-position: -189px -208px; width: 21px; height: 24px; }
+.flair-cheminade { background-position: -189px -240px; width: 30px; height: 35px; }
+.flair-naquitaine { background-position: -192px -280px; width: 30px; height: 35px; }
+
+.flair-nimportequoi { background-position: -152px -1828px; width: 246px; height: 20px; }
+.flair-anne { background-position: -193px -402px; width: 33px; height: 37px; }
+.flair-liberte { background-position: -192px -443px; width: 48px; height: 37px; }
+.flair-jeannedarc { background-position: -189px -486px; width: 41px; height: 37px; }
+.flair-mariecurie { background-position: -189px -525px; width: 41px; height: 39px; }
+.flair-maite { background-position: -189px -565px; width: 41px; height: 39px; }
+.flair-mariondufaouet { background-position: -189px -604px; width: 24px; height: 33px; }
+.flair-beauvoir { background-position: -189px -643px; width: 33px; height: 38px; }
+.flair-veil { background-position: -189px -682px; width: 33px; height: 38px; }
+.flair-piaf { background-position: -189px -721px; width: 33px; height: 38px; }
+.flair-poutineperuqe { background-position: -192px -761px; width: 33px; height: 38px; }
+.flair-penelope { background-position: -192px -803px; width: 33px; height: 38px; }
+.flair-taubira { background-position: -192px -844px; width: 33px; height: 38px; }
+.flair-alizee { background-position: -192px -882px; width: 27px; height: 36px; }
+.flair-haddock { background-position: -189px -917px; width: 38px; height: 37px; }
+.flair-ceres { background-position: -189px -956px; width: 34px; height: 38px; }
+.flair-melenchon { background-position: -193px -1001px; width: 25px; height: 32px; }
+.flair-edriseur { background-position: -194px -1034px; width: 23px; height: 27px; }
+.flair-tgv { background-position: -192px -1098px; width: 110px; height: 22px; }
+.flair-asterix { background-position: -192px -1121px; width: 30px; height: 33px; }
+.flair-taiwan { background-position: -192px -1156px; width: 34px; height: 22px; }
+.flair-singapour { background-position: -192px -1179px; width: 34px; height: 25px; }
+.flair-nono { background-position: -192px -1209px; width: 31px; height: 31px; }
+.flair-voltaire { background-position: -192px -1243px; width: 31px; height: 31px; }
+.flair-coluche { background-position: -192px -1276px; width: 25px; height: 34px; }
+.flair-rousseau { background-position: -192px -1313px; width: 34px; height: 41px; }
+.flair-desproges { background-position: -192px -1359px; width: 36px; height: 36px; }
+.flair-amiralpoitou { background-position: -192px -1397px; width: 37px; height: 41px; }
+.flair-perceval { background-position: -192px -1441px; width: 24px; height: 31px; }
+.flair-gainsbourg { background-position: -195px -1474px; width: 34px; height: 31px; }
+.flair-ubu { background-position: -195px -1506px; width: 25px; height: 41px; }
+.flair-lci { background-position: -195px -1551px; width: 41px; height: 16px; }
+.flair-zizou { background-position: -195px -1571px; width: 46px; height: 32px; }
+.flair-tzizou { background-position: -195px -1601px; width: 34px; height: 28px; }
+.flair-peppercarrot { background-position: -195px -1635px; width: 31px; height: 31px; }
+.flair-mecronchon  { background-position: -195px -1666px; width: 35px; height: 42px; }
+.flair-inconnus  { background-position: -198px -1710px; width: 47px; height: 30px; }
+.flair-pascalbrutal  { background-position: -202px -1741px; width: 37px; height: 35px; }
+.flair-gaston  { background-position: -199px -1780px; width: 41px; height: 37px; }
+.flair-jeanne  { background-position: -200px -1851px; width: 46px; height: 40px; }
+.flair-planete  { background-position: -203px -1898px; width: 46px; height: 26px; }
+.flair-marsu  { background-position: -199px -0px; width: 215px; height: 35px; }
+.flair-grnx  { background-position: -199px -38px; width: 33px; height: 27px; }
+.flair-rochefort  { background-position: -199px -66px; width: 33px; height: 32px; }
+.flair-beaumarchais  { background-position: -246px -38px; width: 34px; height: 36px; }
+.flair-sisyphe  { background-position: -242px -76px; width: 32px; height: 40px; }
+.flair-ss  { background-position: -279px -40px; width: 50px; height: 34px; }
+.flair-dauphine  { background-position: -338px -40px; width: 25px; height: 25px; }
+.flair-gadget  { background-position: -280px -76px; width: 40px; height: 34px; }
+.flair-amiralpoitou2  { background-position: -323px -76px; width: 28px; height: 34px; }
+.flair-vlc  { background-position: -353px -76px; width: 26px; height: 29px; }
+.flair-coqd  { background-position: -368px -40px; width: 30px; height: 34px; }
+.flair-bonnetane  { background-position: -402px -40px; width: 24px; height: 32px; }
+.flair-gjour  { background-position: -419px -1px; width: 20px; height: 13px; }
+.flair-bebel  { background-position: -425px -76px; width: 28px; height: 33px; }
+.flair-bresil  { background-position: -385px -76px; width: 32px; height: 24px; }
+.flair-respiration  { background-position: -427px -38px; width: 33px; height: 33px; }
+.flair-chouffe  { background-position: -462px -38px; width: 33px; height: 33px; }
+.flair-saliere  { background-position: -462px -80px; width: 32px; height: 31px; }
+.flair-gobelin  { background-position: -243px -117px; width: 32px; height: 26px; }
+.flair-framasoft  { background-position: -280px -113px; width: 33px; height: 33px; }
+.flair-schtroumpf  { background-position: -325px -115px; width: 21px; height: 32px; }
+.flair-nioutaik  { background-position: -358px -118px; width: 70px; height: 19px; }
+.flair-mbappe  { background-position: -463px -115px; width: 29px; height: 31px; }
+.flair-croatie  { background-position: -433px -115px; width: 30px; height: 33px; }
+
+/* piqué ici : https://www.reddit.com/r/csshelp/comments/2fwmsd/looking_to_change_automoderators_name_in_a/ckdt914 */
+a[href$="user/AutoModerator"] {visibility:hidden;font-size:0}
+
+a[href$="user/AutoModerator"]:after {content:"AutoModérateur";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-right:0.5em}
+
+.side a[href$="user/AutoModerator"]:after {font-size:12px;}
+
+/* [](/francebaiseouais) pour déclencher */
+/*.comment [href="/francebaiseouais"] { content: url(%%francebaiseouais%%); }*/
+
+a[href="/francebaiseouais"]:after{width:1000px;height:736px;content:" ";background-image:url(%%francebaiseouais%%);display:inline-block;background-position:0px 0px;background-repeat:no-repeat;}
+
+a[href="/gwenn-ha-du"]:after{width:107px;height:71px;content:" ";background-image:url(%%gwenn-ha-du%%);display:inline-block;background-position:0px 0px;background-repeat:no-repeat;}
+
+/* Report button message */
+.report-button:hover:before {
+	position: absolute;
+	display: block;
+	z-index: 1000;
+	padding: 5px;
+	background: #FBFAFD;
+	border: 1px solid #767676;
+	color: black;
+        content: "Merci d'expliquer aux modérateurs pourquoi vous signalez ceci.";
+	text-align: center;
+	font-size: 10px;
+	font-weight: normal;
+	margin-left: 5px;
+	margin-top: 25px;
+	border-radius: 3px;
+	-webkit-box-shadow: 3px 3px 3px rgb(142,142,142);
+	-moz-box-shadow: 3px 3px 3px rgb(142,142,142);
+	box-shadow: 3px 3px 3px rgb(142,142,142);
+    /* BACKGROUND GRADIENT for hovers */
+    /* IE10 */
+    background-image: -ms-linear-gradient(top, #FFFFFF0%, #E4E5F0100%);
+    /* Mozilla Firefox */
+    background-image: -moz-linear-gradient(top, #FFFFFF0%, #E4E5F0100%);
+    /* Opera */
+    background-image: -o-linear-gradient(top, #FFFFFF0%, #E4E5F0100%);
+    /* Webkit (Safari/Chrome 10) */
+    /* this line breaks Reddit's validator? */
+    /* background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0,#FFFFFF), color-stop(1,#E4E5F0)); */
+    /* Webkit (Chrome 11+) */
+    background-image: -webkit-linear-gradient(top, #FFFFFF0%, #E4E5F0100%);
+    /* Proposed W3C Markup */
+    background-image: linear-gradient(top, #FFFFFF0%, #E4E5F0100%)
+}
+
+/* Adds text to the submission page*/
+
+#link-desc:after, #text-desc:after {
+display: block;
+margin-top: 1em;
+font-weight: bold;
+color: #d42b55;
+content: "Please use the search function and check the FAQ before posting questions about tourism, or studying and working in France. Most questions have already been answered. We may remove bigoted or hateful comments, including those directed towards any race, religion, ethnic group, nationality, gender, or sexual orientation. Repeat offenders may be banned. Thanks, and enjoy your stay! ";
+}
+
+/* Message sur le bouton bas vote */
+.arrow.down:after {
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1000;
+    margin-top: -6px;
+    margin-left: 32px;
+    padding: 12px;
+    background-color: #162f56;
+    border: none;
+    border-radius: 2px;
+    color: #FFF;
+    content: "Ceci n'est pas un bouton «Je ne suis pas d'accord»";
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 13px;
+    transition: all .25s ease;
+    pointer-events: none
+}
+
+.arrow.down:hover:after {
+    visibility: visible;
+    background-color: #162f56;
+    color: #FFF;
+    margin-left: 48px
+}
+
+/* enlève la bordure arrondie */
+
+.roundfield, #REScommentSubToggle, #header-bottom-right, #userbarToggle { border-radius: 0px !important; }
+
+/* enlève des trucs inutiles */
+
+/* "No Participation"-Mode, aka "Read Only"-Mode
+ * by /u/KortoloB
+ * /r/NoParticipation
+ *
+ * Link people to np.reddit.com/r/YourSubreddit to show them a read-only version.
+ * Subscribers will see the full page, only non-subscribers will see the read-only version.
+ * This is of course by no means fool-proof, but it should work for the average user.
+ *  */
+
+body:lang(np):not(.subscriber) .arrow
+{
+    visibility: hidden !important;
+}
+
+body:lang(np):not(.subscriber) .usertext-edit,
+body:lang(np):not(.subscriber) .sidebox.submit,
+body:lang(np):not(.subscriber) .commentingAs,
+body:lang(np):not(.subscriber) .markdownEditor,
+body:lang(np):not(.subscriber) a[onclick*="return reply(this)"],
+body:lang(np):not(.subscriber) .subButtons,
+body:lang(np):not(.subscriber) .helplink,
+body:lang(np):not(.subscriber) .titlebox .fancy-toggle-button.toggle > .option.add
+{
+    display: none !important;
+}
+
+body:lang(np):not(.subscriber) #siteTable:before
+{
+    content: "You have been linked to a read-only version of this subreddit. Please respect the community by not voting.";
+    display: block;
+    max-width: 800px;
+    background-color: #F6E69F;
+    padding: 5px 10px;
+    margin: 5px 305px 5px 0px;
+    border: 1px solid orange;
+    font-size: small;
+}
+
+body:lang(np):not(.subscriber) .entry.likes:not(.reddit-entry):before,
+body:lang(np):not(.subscriber) .entry.dislikes:not(.reddit-entry):before
+{
+    content: "Please do not vote or comment when you come from external subreddits.";
+    color: red;
+    font-size: large;
+    font-weight: bold;
+}
+
+/* Wiki protection */
+body.wiki-page:lang(np):not(.subscriber) span.pageactions a.wikiaction-edit:not(.wikiaction-current),
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform label[for='reason'],
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input#wiki_revision_reason,
+body.wiki-page:lang(np):not(.subscriber) div.wiki-page-content form#editform input[type='submit']
+{
+    display: none !important;
+}
+
+/*Spoiler tag within comments. Your comment should be: "[This is a spoiler sentence.](/spoiler)"
+*/
+a[href$="/spoiler"] {
+background: #162F56 !important;
+color: #162F56 !important
+}
+
+a[href$="/spoiler"]:hover {
+color: #FFF !important
+}
+
+/* BODY */
+
+.link {
+    margin: 0;
+    padding: 16px;
+    position: relative;
+}
+
+.stickied {
+    border: solid rgba(39,176,98,.4) !important;
+    border-width: 1px !important;
+    margin-bottom: 23px;
+}
+
+.thing.stickied {
+    display: block !important;
+}
+
+.stickied + div + .stickied {
+     border-top-width: 0 !important;
+}
+
+.stickied + .clearleft + .thing:not(.stickied) {
+    margin-top: 10px;
+    border-top: 1px solid #e5e6e9;
+}
+
+.listing-page .thing {
+    background: #FFF;
+    border: solid;
+    border-width: 0 1px;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+}
+
+body > .content {
+    margin: 15px 340px 10px 8px;
+    padding: 0 !important;
+}
+
+.stickied + .clearleft {
+    position: relative;
+}
+
+.listing-page .thing {
+    background: #FFF;
+    border: solid;
+    border-width: 0 1px 1px;
+    border-color: #ddd;
+}
+
+.link {
+    margin: 0;
+    padding: 3px;
+    position: relative;
+}
+
+body {
+ background-color: #efefef;
+}
+
+.link.last-clicked {
+ overflow: visible;
+}
+
+.thing.stickied::before { color: #72b242; }
+.thing.linkflair-red::before { color: #000 }
+.thing.linkflair-yellow::before { color: #162f56 }
+.thing.linkflair-blue::before { color: #164a9a }
+.thing.linkflair-gray::before { color: #72b242 }
+.thing.linkflair-purple::before { color: #7d4f0b }
+.thing.linkflair-orange::before { color: #ff7724 }
+.thing.linkflair-pink::before { color: #dfb300 }
+.thing.linkflair-green::before { color: #007158 }
+.thing.linkflair-black::before { color: #216a00 }
+.thing.linkflair-asphalt::before { color: #e22323 }
+.thing.linkflair-blay::before { color: #45546b }
+.thing.linkflair-rose::before { color: #7e2a79 }
+.thing.linkflair-teal::before { color: #81BEF7 }
+
+.thing.stickied::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 0;
+border-right: 4px solid;
+opacity: .6;
+}
+
+.thing.linkflair::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+width: 0;
+border-right: 4px solid;
+opacity: .6;
+}
+
+.comment { background-color:white }
+
+.res-nightmode .comment, .res-nightmode .link { background-color: #141414; }
+
+.comment .expand {
+    background-color: transparent;
+    transition: all .20s ease;
+    color: #98abba;
+    background-color: #e6e6e6;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: -1px;
+    padding: 2px 1px;
+    border-radius: 3px 0 0 3px;
+    width: 11px;
+    font-size: 0px;
+    text-align: center;
+}
+
+.comment.collapsed .expand:after {
+    font-size: 15px!important;
+    content: "+"!important;
+}
+
+.comment.noncollapsed .expand:after {
+    font-size: 18px;
+    content: "-";
+}
+
+.expand:after {
+    line-height: 10px;
+    color: #949494;
+}
+
+.comment .expand:hover {
+    text-decoration: none;
+    background: #d8d8d8;
+    color: #FFF;
+}
+
+.commentarea .thing, .res .commentarea .thing, html.res-commentBoxes.res-commentBoxes-rounded .comment {
+    position: relative;
+overflow:visible ;
+}
+
+.comment .midcol {
+    margin-left: 20px!important;
+    width: 15px;
+}
+
+.res-nightmode .comment .expand {
+    background-color: #292929;
+}
+
+.res-nightmode .comment .expand:hover {
+    text-decoration: none;
+    background: #3a3a3a;
+    color: #FFF
+}
+
+/* couleur alternee */
+.sitetable .comment,
+.sitetable .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment{
+    background-color: #FFF;
+}
+
+.sitetable .comment .comment,
+.sitetable .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,
+.sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
+    background-color: #F5F5F5;
+}
+
+/* Affiche des barres sur le côté des commentaires pour rendre l'indentation plus claire */
+/*
+.comment {
+    position: relative;
+}
+
+.comment .expand {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 3px;
+    transition: 0.15s;
+}
+
+.comment .midcol {
+    margin-left: 17px;
+}
+
+.comment .expand:hover {
+    background: #45546b; /*couleur de fond bannière : #162f56*/ /*
+    color: white;
+    text-decoration: none;
+}
+*/
+
+/* wiki pages */
+
+.wiki-page-content {
+    font-family:"Segoe UI",Frutiger,"Frutiger Linotype","Dejavu Sans","Helvetica Neue",Arial,sans-serif!important;
+}
+
+.wiki-page-content .md h1,h2,h3 {
+    margin-left:15px;
+    color:#7C8895 !important;
+    font-weight:500 !important;
+}
+
+.wiki-page-content .md > blockquote,
+.wiki-page-content .md > table,
+.wiki-page-content .md > p,
+.wiki-page-content .md > ul,
+.wiki-page-content .md > ol{
+    background: #EFF7FF;
+    border: 1px solid #C7DAF3;
+    border-radius: 3px;
+    margin: -1px 0px 0px 0px;
+}
+
+.wiki-page-content .md > blockquote,
+.wiki-page-content .md > table,
+.wiki-page-content .md > p{
+    padding: 8px 10px 8px 10px;
+}
+
+.wiki-page-content .md ul,
+.wiki-page-content .md ol{
+    padding: 11px 10px 11px 25px;
+    max-width: 1185px;
+}
+
+.wiki-page-content .md hr {
+    width:80%;
+    border:2px solid #E0E0FF;
+    margin: 20px 10px 10px 10px
+}
+
+.wiki-page-content .toc ul {
+    background: white;
+}
+
+.wiki-page-content .md blockquote,
+.wiki-page-content .md table,
+.wiki-page-content .md p,
+.wiki-page-content .md hr{
+    max-width: 1200px;
+}
+
+/* style for index page */
+.wiki-page-index .wiki-page-content .md ul {
+    max-width: 330px;
+}
+
+/* end wiki pages */
+
+/* Make nuked comment trees easier to navigate, thanks /u/gavin19 */
+
+.deleted .grayed, .deleted > .entry em {
+    display: none;
+}
+.deleted > .entry .tagline:before {
+    content: ' (Comment deleted or removed)  ';
+}
+
+/*--------------- soft paywall hide ---------------*/
+
+/*.link.linkflair-softpaywall .buttons a, .link.linkflair-softpaywall .tagline, .link.linkflair-softpaywall .tagline a, .link.linkflair-softpaywall .tagline p, .link.linkflair-softpaywall .tagline span{
+	color:#E0E0E0;
+}
+
+.link.linkflair-softpaywall .big-mod-buttons .pretty-button { color: black; }
+
+.link.linkflair-softpaywall p.title{
+	max-width:250px;
+	text-overflow:ellipsis;
+	white-space:nowrap;
+	font-style:italic;
+}
+
+.link.linkflair-softpaywall p.title:hover{
+	max-width:none;
+	text-overflow:none;
+	white-space:nowrap;
+	font-style:normal;
+}
+
+.linkflair-softpaywall .title .linkflairlabel{
+	color: gray;
+}
+
+.linkflair-softpaywall .title .linkflairlabel:after{
+	content: " - merci de trouver une autre source";
+}
+
+*/
+/*----------- end soft paywall hide ---------------*/
+
+/* Random easter egg shameslessly stolen from CC */
+a[href="/parkinmodo"] {
+color: #000000;
+text-transform: uppercase;
+display: block;
+font-size: 15px;
+animation: intensify .1s steps(5) infinite;
+-webkit-animation: intensify .1s steps(5) infinite;
+-moz-animation: intensify .1s steps(5) infinite;
+}
+
+@keyframes intensify {
+ 0% { margin-left: 0px; }
+ 100% { margin-left: 2px; }
+}
+
+@-webkit-keyframes intensify {
+ 0% { margin-left: 0px; }
+ 100% { margin-left: 2px; }
+}
+
+@-moz-keyframes intensify {
+ 0% { margin-left: 0px; }
+ 100% { margin-left: 2px; }
+}
+
+a[href="/parkinmodo"]:before {
+  content: "[";
+}
+
+a[href="/parkinmodo"]:after {
+  content: "]";
+}
+
+.author[href$="khodor2012"] ~ .flair+.userattrs:before,
+.author[href$="cope2022"] ~ .flair+.userattrs:before {
+    content: '';
+    background: url(%%spritesheet%%) no-repeat;
+    background-position: 0px -20px;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    min-width: 16px;
+    vertical-align: middle;
+    text-indent: 16px;
+}
+
+.author[href$="barnfagel"] ~ .flair+.userattrs:before {
+    content: '';
+    background: url(%%spritesheet%%) no-repeat;
+    background-position: -70px -1125px; width: 20px; height: 10px;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    min-width: 33px;
+    vertical-align: middle;
+    text-indent: 22px;
+}
+
+.author[href$="JetteLoinloinloin"] ~ .flair+.userattrs:before {
+    content: '';
+    background: url(%%spritesheet%%) no-repeat;
+    background-position: -140px -267px; width: 30px; height: 31px;
+    display: inline-block;
+    line-height: 10px;
+    min-width: 33px;
+    vertical-align: top;
+    text-indent: 22px;
+}
+
+/* bonnet d'ane */
+/*.author[href$="sysnot"] ~ .flair+.userattrs:before {
+    content: '';
+    background: url(%%spritesheet%%) no-repeat;
+    background-position: -402px -40px; width: 24px; height: 32px;
+    display: inline-block;
+    height: 32px;
+    line-height: 10px;
+    min-width: 24px;
+    vertical-align: top;
+    text-indent: 22px;
+}*/
+
+/* Boloss */
+
+a[href$="user/VERCETTITOMMY"] {visibility:hidden;font-size:0}
+
+a[href$="user/VERCETTITOMMY"]:after {content:"VERCETTITOMMY (boloss)";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-right:0.5em}
+
+.side a[href$="user/VERCETTITOMMY"]:after {font-size:12px;}
+
+/* Fan de Frensoa */
+
+a[href$="user/enloucede"] {visibility:hidden;font-size:0}
+
+a[href$="user/enloucede"]:after {content:"enloucede (plus grand fan de Frensoaria)";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-right:0.5em}
+
+.side a[href$="user/enloucede"]:after {font-size:12px;}
+
+/* Karmatraître */
+
+/* a[href$="user/Glorfindel212"] {visibility:hidden;font-size:0} */
+
+a[href$="user/Glorfindel212"]:after {content:"KARMATRAÎTRE";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-left:0.5em;color:red}
+.side a[href$="user/Glorfindel212"]:after {font-size:12px;}
+
+/* Korosif */
+
+a[href$="user/Korosif"]:after {content:"adorable casse-couilles";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-left:0.5em;color:blue}
+.side a[href$="user/Korosif"]:after {font-size:12px;}
+
+a[href$="user/Korosif_Undercover"]:after {content:"<-- c'est Korosif en fait";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-left:0.5em;color:blue}
+.side a[href$="user/Korosif_Undercover"]:after {font-size:12px;}
+
+/* Perfide albionnais */
+a[href$="user/Karnow"]:after {content:"Perfide Albionnais";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-left:0.5em;color:black}
+.side a[href$="user/Karnow"]:after {font-size:12px;}
+
+/* Prvilégié */
+a[href$="user/hash95"]:after {content:"Privilégié";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-left:0.5em;color:green}
+.side a[href$="user/hash95"]:after {font-size:12px;}
+
+/* CatoHostilius */
+a[href$="user/CatoHostilius"]:after {content:"Légion d'Honneur Rançaise pour service rendu au Méta";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-left:0.5em;color:blue}
+.side a[href$="user/CatoHostilius"]:after {font-size:12px;}
+
+/* Jaune */
+a[href$="user/-Malky-"]:after {content:"Jaune";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-left:0.5em;color:yellow}
+.side a[href$="user/Karnow"]:after {font-size:12px;}
+
+a[href$="user/ecrire_melenchon"] {visibility:hidden;font-size:0}
+
+a[href$="user/ecrire_melenchon"]:after {content:"écrire_Mélenchon";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-right:0.5em}
+
+.side a[href$="user/ecrire_melenchon"]:after {font-size:12px;}
