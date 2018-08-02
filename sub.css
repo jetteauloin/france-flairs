@@ -10,6 +10,20 @@
 /* à partir de quel âge on est considérés comme vieux ? J'ai 30 ans et j'ai peur*/
 /*  30 ans et 3 mois, l'age du Christ quand il est mort */
 
+/*ajouté le 2018-26-07*/
+    a.title[href="https://twitter.com/gerardfiloche/status/1021681177634189312?s=21"]:after {
+    content:"Raccourci de l'auteur";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
+/*ajouté le 2018-05-23*/
+    a.title[href="http://footballstories.konbini.com/entertainment/equipe-france-foot-fauteuil-championne-monde/"]:after {
+    content:"Article de 2017";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
 /*ajouté le 2018-05-23*/
     a.title[href="https://www.legifrance.gouv.fr/affichJuriAdmin.do?oldAction=rechJuriAdmin&idTexte=CETATEXT000037134667&fastReqId=130037027&fastPos=1"]:after {
     content:"Interprétation douteuse d'OP";
@@ -17,26 +31,26 @@
     font: normal verdana,arial,helvetica,sans-serif;
         color:#228822}
 
-/*ajouté le 2018-05-17*/
+/*ajouté le 2018-07-25*/
 
-    a.title[href="http://www.nytimes.com/2018/05/16/us/politics/trump-undocumented-immigrants-animals.html"]:after {
-    content:"En parlant d'un gang ultra violent";
+    a.title[href="https://twitter.com/ALeaument/status/1021912687436021760?s=09"]:after {
+    content:"Interprétation hautement subjective d'Antoine Léaumont";
     margin-left:10px;
     font: normal verdana,arial,helvetica,sans-serif;
     color:#228822}
 
-/*ajouté le 2018-05-01*/
+/*ajouté le 2018-07-15*/
 
-    a.title[href="https://www.lemonde.fr/europe/article/2015/04/17/des-migrants-chretiens-auraient-ete-jetes-a-la-mer-par-des-musulmans-au-large-de-l-italie_4617899_3214.html"]:after {
-    content:"2015";
+    a.title[href="/r/france/comments/8z336m/megathread_la_france_remporte_la_coupe_du_monde/"]:after {
+    content:"PLEASE POST HERE / MERCI DE POSTER ICI";
     margin-left:10px;
     font: normal verdana,arial,helvetica,sans-serif;
         color:#228822}
 
-/*ajouté le 2018-05-12*/
+/*ajouté le 2018-07-27*/
 
-    a.title[href="http://www.bfmtv.com/police-justice/attaque-au-couteau-a-paris-au-moins-deux-blesses-graves-1444094.html"]:after {
-    content:"un mort et l'assaillant a été abattu";
+    a.title[href="/r/france/comments/92g75e/affaire_benalla_il_ny_avait_aucune_menace_cétait/"]:after {
+    content:"avis à débattre de OP";
     margin-left:10px;
     font: normal verdana,arial,helvetica,sans-serif;
         color:#228822}
@@ -81,7 +95,7 @@ text-decoration:none;
 
 #header {
   border-bottom: none;
-  background: url(%%bannermbappe%%) top left;
+  background: url(%%vison%%) top left;
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
   background-color: #162f56;
@@ -969,10 +983,6 @@ position: absolute;}
 display: none !important;
 }
 
-#container li {
-    background: url(%%spritesheet%%) no-repeat top left;
-}
-
 .flair {
 border: none !important;
 top:0px;
@@ -994,6 +1004,10 @@ text-indent: -1000em; overflow: hidden;
    -webkit-transform:rotate(-360deg);
    transform:rotate(360deg);
 
+}
+
+#container li {
+    background: url(%%spritesheet%%) no-repeat top left;
 }
 
 /* piqué ici : https://www.reddit.com/r/csshelp/comments/2fwmsd/looking_to_change_automoderators_name_in_a/ckdt914 */
