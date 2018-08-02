@@ -1517,55 +1517,6 @@ a[href="/parkinmodo"]:after {
   content: "]";
 }
 
-.author[href$="khodor2012"] ~ .flair+.userattrs:before,
-.author[href$="cope2022"] ~ .flair+.userattrs:before {
-    content: '';
-    background: url(%%spritesheet%%) no-repeat;
-    background-position: 0px -20px;
-    display: inline-block;
-    height: 10px;
-    line-height: 10px;
-    min-width: 16px;
-    vertical-align: middle;
-    text-indent: 16px;
-}
-
-.author[href$="barnfagel"] ~ .flair+.userattrs:before {
-    content: '';
-    background: url(%%spritesheet%%) no-repeat;
-    background-position: -70px -1125px; width: 20px; height: 10px;
-    display: inline-block;
-    height: 10px;
-    line-height: 10px;
-    min-width: 33px;
-    vertical-align: middle;
-    text-indent: 22px;
-}
-
-.author[href$="JetteLoinloinloin"] ~ .flair+.userattrs:before {
-    content: '';
-    background: url(%%spritesheet%%) no-repeat;
-    background-position: -140px -267px; width: 30px; height: 31px;
-    display: inline-block;
-    line-height: 10px;
-    min-width: 33px;
-    vertical-align: top;
-    text-indent: 22px;
-}
-
-/* bonnet d'ane */
-/*.author[href$="sysnot"] ~ .flair+.userattrs:before {
-    content: '';
-    background: url(%%spritesheet%%) no-repeat;
-    background-position: -402px -40px; width: 24px; height: 32px;
-    display: inline-block;
-    height: 32px;
-    line-height: 10px;
-    min-width: 24px;
-    vertical-align: top;
-    text-indent: 22px;
-}*/
-
 /* Boloss */
 
 a[href$="user/VERCETTITOMMY"] {visibility:hidden;font-size:0}
