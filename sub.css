@@ -9,6 +9,22 @@
 /* essayez de mettre tout sous le format avec la date puis de virer les vieux*/
 
 /*ajouté le 2018-09-05*/
+    a.title[href="https://www.reddit.com/r/france/comments/9f3p05/rien_que_le_chocolat_ne_peux_pas_fixer/"]:after {
+    content:"réparer";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
+
+
+/*ajouté le 2018-09-05*/
+    a.title[href="http://madame.lefigaro.fr/societe/une-prostituee-raconte-lenfer-de-la-prostitution-en-belgique-090215-94332"]:after {
+    content:"Article de 2015";
+    margin-left:10px;
+    font: normal verdana,arial,helvetica,sans-serif;
+        color:#228822}
+
+/*ajouté le 2018-09-05*/
     a.title[href="http://www.lepoint.fr/societe/raphael-enthoven-j-aimerais-etre-une-femme-noire-pour-qu-on-arrete-de-m-emmerder-04-09-2018-2248518_23.php?utm_campaign=Echobox&utm_medium=Social&utm_source=Twitter&Echobox=1536082077"]:after {
     content:"Citation tronquée, voir commentaires";
     margin-left:10px;
@@ -112,7 +128,7 @@ text-decoration:none;
 
 #header {
   border-bottom: none;
-  background: url(%%vendanges%%) top left;
+  background: url(%%guyane%%) top left;
   background-color: rgba(0, 0, 0, 0);
   background-repeat: no-repeat;
   background-color: #162f56;
@@ -134,7 +150,7 @@ text-decoration:none;
     color: rgba(255, 255, 255, 0.9) ;
  text-shadow:0px 0px 15px #000000;
     position: absolute;
-    left: 150px;
+    left: 50px;
     top: 70px;
 
 font-family: Arial, Helvetica, sans-serif;
@@ -893,7 +909,7 @@ html:lang(xp) .linkflair-gray {
 
 /* news */
 
-.side .md [href*="search?q=flair_css_class%3A%27blay"] {
+.side .md [href*="search?q=flair%3A%27Actus"] {
     background: #45546b;
     font-size:8pt;
     font-family: Arial, Helvetica, sans-serif;
@@ -908,7 +924,7 @@ html:lang(xp) .linkflair-gray {
     margin: 3px 3px 3px 20px;
     display: inline-block;
     vertical-align: top; }
-.side .md [href*="search?q=flair_css_class%3A%27blay"]:hover { opacity:1;}
+.side .md [href*="search?q=flair%3A%27Actus"]:hover { opacity:1;}
 
 /* humour */
 
@@ -1586,4 +1602,3 @@ a[href$="user/ecrire_melenchon"] {visibility:hidden;font-size:0}
 a[href$="user/ecrire_melenchon"]:after {content:"écrire_Mélenchon";visibility:visible;font-size:10px;color:inherit;background:inherit;border-radius:inherit;margin-right:0.5em}
 
 .side a[href$="user/ecrire_melenchon"]:after {font-size:12px;}
-
