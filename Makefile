@@ -9,6 +9,8 @@ flairs.css flairs.png: $(SPRITES) Makefile
 		--padding 1 \
 		flairs .
 	optipng -o7 flairs.png
+# special variant of the de Funes flair
+	grep ".flair-deFunes " flairs.css | sed 's/deFunes/deFunesSurprise/' >> flairs.css
 	sed -i 's/-hover/:hover/' flairs.css
 	sort flairs.css | sponge flairs.css
 

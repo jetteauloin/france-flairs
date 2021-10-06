@@ -163,7 +163,8 @@
 .flair-danemark { background-position: -341px -402px; width: 27px; height: 21px; }
 .flair-dauphine { background-position: -311px -432px; width: 27px; height: 27px; }
 .flair-deFunes { background-position: -233px -293px; width: 28px; height: 40px; }
-.flair-deFunesAuth { background-position: -199px -293px; width: 34px; height: 40px; }
+.flair-deFunesSurprise { background-position: -233px -293px; width: 28px; height: 40px; }
+.flair-deFunesSurprise:hover { background-position: -199px -293px; width: 34px; height: 40px; }
 .flair-desproges { background-position: -407px 0; width: 38px; height: 38px; }
 .flair-devinplombier { background-position: -445px -74px; width: 37px; height: 37px; }
 .flair-didi { background-position: 0 -256px; width: 42px; height: 37px; }
